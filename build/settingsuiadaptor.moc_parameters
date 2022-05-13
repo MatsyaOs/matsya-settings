@@ -1,0 +1,5 @@
+-I/home/tokyo/clone/cuteclone/settings
+-I/home/tokyo/clone/cuteclone/settings/build
+-o
+/home/tokyo/clone/cuteclone/settings/build/settingsuiadaptor.moc
+/home/tokyo/clone/cuteclone/settings/build/settingsuiadaptor.h

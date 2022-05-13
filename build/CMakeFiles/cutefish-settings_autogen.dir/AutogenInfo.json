@@ -1,0 +1,487 @@
+{
+	"BUILD_DIR" : "/home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/clone/cuteclone/settings/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/clone/cuteclone/settings/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/settings",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/tokyo/clone/cuteclone/settings/CMakeLists.txt",
+		"/home/tokyo/clone/cuteclone/settings/build/CMakeFiles/3.18.4/CMakeSystem.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/tokyo/clone/cuteclone/settings/build/CMakeFiles/3.18.4/CMakeCCompiler.cmake",
+		"/home/tokyo/clone/cuteclone/settings/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeGenericSystem.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake",
+		"/usr/share/cmake-3.18/Modules/Platform/Linux.cmake",
+		"/usr/share/cmake-3.18/Modules/Platform/UnixPaths.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCInformation.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/GNU-C.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/usr/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"/usr/share/cmake-3.18/Modules/Platform/Linux-GNU-C.cmake",
+		"/usr/share/cmake-3.18/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCXXInformation.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/GNU-CXX.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake-3.18/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/usr/share/cmake-3.18/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5QmlModels/Qt5QmlModelsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5QuickControls2/Qt5QuickControls2ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5QuickControls2/Qt5QuickControls2Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusMacros.cmake",
+		"/usr/share/cmake-3.18/Modules/MacroAddFileDependencies.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake",
+		"/usr/share/cmake-3.18/Modules/FindX11.cmake",
+		"/usr/share/cmake-3.18/Modules/FindFreetype.cmake",
+		"/usr/share/cmake-3.18/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.18/Modules/FindFontconfig.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.18/Modules/CheckFunctionExists.cmake",
+		"/usr/share/cmake-3.18/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.18/Modules/FindFreetype.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
+		"/home/tokyo/clone/cuteclone/settings/cmake/FindLibcrypt.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtConfig.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets-debian.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtQchTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5ModemManagerQt/KF5ModemManagerQtConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5ModemManagerQt/KF5ModemManagerQtConfig.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5ModemManagerQt/KF5ModemManagerQtTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5ModemManagerQt/KF5ModemManagerQtTargets-debian.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5ModemManagerQt/KF5ModemManagerQtQchTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5Config/KF5ConfigConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5Config/KF5ConfigConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5Config/KF5ConfigTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5Config/KF5ConfigTargets-debian.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5Config/KF5ConfigQchTargets.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5Config/KF5ConfigCompilerTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5Config/KF5ConfigCompilerTargets-debian.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF5Config/KF5ConfigMacros.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake",
+		"/home/tokyo/clone/cuteclone/settings/src/resources.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/settings",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/about.h",
+			"MU",
+			"UVLADIE3JM/moc_about.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/appearance.h",
+			"MU",
+			"UVLADIE3JM/moc_appearance.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/application.h",
+			"MU",
+			"UVLADIE3JM/moc_application.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/background.h",
+			"MU",
+			"UVLADIE3JM/moc_background.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/battery.h",
+			"MU",
+			"UVLADIE3JM/moc_battery.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/batteryhistorymodel.h",
+			"MU",
+			"UVLADIE3JM/moc_batteryhistorymodel.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/brightness.h",
+			"MU",
+			"UVLADIE3JM/moc_brightness.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/cicontheme.h",
+			"MU",
+			"UVLADIE3JM/moc_cicontheme.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/cscreenmanager.h",
+			"MU",
+			"UVLADIE3JM/moc_cscreenmanager.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/cscreenoutput.h",
+			"MU",
+			"UVLADIE3JM/moc_cscreenoutput.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/cursor/cursortheme.h",
+			"MU",
+			"NFYAP3MOR4/moc_cursortheme.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/cursor/cursorthememodel.h",
+			"MU",
+			"NFYAP3MOR4/moc_cursorthememodel.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/cursor/mouse.h",
+			"MU",
+			"NFYAP3MOR4/moc_mouse.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/datetime/time.h",
+			"MU",
+			"7IIF5W55UX/moc_time.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/datetime/timedated_interface.h",
+			"MU",
+			"7IIF5W55UX/moc_timedated_interface.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/datetime/timezonedata.h",
+			"MU",
+			"7IIF5W55UX/moc_timezonedata.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/datetime/timezonemap.h",
+			"MU",
+			"7IIF5W55UX/moc_timezonemap.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/defaultapplications.h",
+			"MU",
+			"UVLADIE3JM/moc_defaultapplications.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/desktopproperties.h",
+			"MU",
+			"UVLADIE3JM/moc_desktopproperties.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/fonts/fonts.h",
+			"MU",
+			"BVGICNYJZY/moc_fonts.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/fonts/kxftconfig.h",
+			"MU",
+			"BVGICNYJZY/moc_kxftconfig.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/fontsmodel.h",
+			"MU",
+			"UVLADIE3JM/moc_fontsmodel.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/language.h",
+			"MU",
+			"UVLADIE3JM/moc_language.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/networkproxy.h",
+			"MU",
+			"UVLADIE3JM/moc_networkproxy.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/notifications.h",
+			"MU",
+			"UVLADIE3JM/moc_notifications.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/password.h",
+			"MU",
+			"UVLADIE3JM/moc_password.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/powermanager.h",
+			"MU",
+			"UVLADIE3JM/moc_powermanager.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/touchpad.h",
+			"MU",
+			"UVLADIE3JM/moc_touchpad.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/vpn/nm-l2tp-service.h",
+			"MU",
+			"JSLEK3B5YU/moc_nm-l2tp-service.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/vpn/nm-openvpn-service.h",
+			"MU",
+			"JSLEK3B5YU/moc_nm-openvpn-service.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/vpn/nm-pptp-service.h",
+			"MU",
+			"JSLEK3B5YU/moc_nm-pptp-service.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/vpn/vpn.h",
+			"MU",
+			"JSLEK3B5YU/moc_vpn.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICKCONTROLS2_LIB",
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB",
+		"QT_XML_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/tokyo/clone/cuteclone/settings/build",
+		"/home/tokyo/clone/cuteclone/settings",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQuick",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQmlModels",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQml",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQuickControls2",
+		"/usr/include/x86_64-linux-gnu/qt5/QtDBus",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/x86_64-linux-gnu/qt5/QtX11Extras",
+		"/usr/include/x86_64-linux-gnu/qt5/QtConcurrent",
+		"/usr/include/KF5/NetworkManagerQt",
+		"/usr/include/libnm",
+		"/usr/include/libmount",
+		"/usr/include/blkid",
+		"/usr/include/glib-2.0",
+		"/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+		"/usr/include/KF5",
+		"/usr/include/KF5/ModemManagerQt",
+		"/usr/include/ModemManager",
+		"/usr/include/KF5/KConfigCore",
+		"/usr/include/uuid",
+		"/usr/include/freetype2",
+		"/usr/include/libpng16",
+		"/usr/include",
+		"/usr/include/c++/10",
+		"/usr/include/x86_64-linux-gnu/c++/10",
+		"/usr/include/c++/10/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/tokyo/clone/cuteclone/settings/build/CMakeFiles/cutefish-settings_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/tokyo/clone/cuteclone/settings/build/CMakeFiles/cutefish-settings_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/tokyo/clone/cuteclone/settings/src/about.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/appearance.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/application.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/background.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/battery.cpp", "MU" ],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/batteryhistorymodel.cpp",
+			"MU"
+		],
+		[ "/home/tokyo/clone/cuteclone/settings/src/brightness.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/cicontheme.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/cscreenmanager.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/cscreenoutput.cpp", "MU" ],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/cursor/cursortheme.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/cursor/cursorthememodel.cpp",
+			"MU"
+		],
+		[ "/home/tokyo/clone/cuteclone/settings/src/cursor/mouse.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/datetime/time.cpp", "MU" ],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/datetime/timedated_interface.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/datetime/timezonemap.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/defaultapplications.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/settings/src/desktopproperties.cpp",
+			"MU"
+		],
+		[ "/home/tokyo/clone/cuteclone/settings/src/fonts/fonts.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/fonts/kxftconfig.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/fontsmodel.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/language.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/main.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/networkproxy.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/notifications.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/password.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/powermanager.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/touchpad.cpp", "MU" ],
+		[ "/home/tokyo/clone/cuteclone/settings/src/vpn/vpn.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

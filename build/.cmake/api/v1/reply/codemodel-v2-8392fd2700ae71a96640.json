@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Build",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cutefish-settings",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "KF5Config_QCH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KF5Config_QCH-Build-fac844fd16ca8540b13f.json",
+					"name" : "KF5Config_QCH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KF5ModemManagerQt_QCH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KF5ModemManagerQt_QCH-Build-6d700e5ceb0ae1c7a17f.json",
+					"name" : "KF5ModemManagerQt_QCH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KF5NetworkManagerQt_QCH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KF5NetworkManagerQt_QCH-Build-f7f9eb621e88525a021d.json",
+					"name" : "KF5NetworkManagerQt_QCH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cutefish-settings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cutefish-settings-Build-2d2b822dc6ecb8504788.json",
+					"name" : "cutefish-settings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cutefish-settings_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cutefish-settings_autogen-Build-0e62c34bb11e8ebe10b7.json",
+					"name" : "cutefish-settings_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-translations-Build-9db9649dbd6ab477c6f9.json",
+					"name" : "translations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tokyo/clone/cuteclone/settings/build",
+		"source" : "/home/tokyo/clone/cuteclone/settings"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
