@@ -1,5 +1,5 @@
-/home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/JSLEK3B5YU/moc_vpn.cpp: /home/tokyo/clone/cuteclone/settings/src/vpn/vpn.h \
-  /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/JSLEK3B5YU/moc_vpn.cpp: /home/tokyo/Documents/GitHub/matsya-settings/src/vpn/vpn.h \
+  /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \

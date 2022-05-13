@@ -1,8 +1,8 @@
-# Install script for directory: /home/tokyo/clone/cuteclone/settings
+# Install script for directory: /home/tokyo/Documents/GitHub/matsya-settings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Build")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-settings"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/tokyo/clone/cuteclone/settings/build/cutefish-settings")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-settings" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-settings")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -67,7 +67,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/home/tokyo/clone/cuteclone/settings/cutefish-settings.desktop")
+file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/home/tokyo/Documents/GitHub/matsya-settings/cutefish-settings.desktop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -80,54 +80,54 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/share/cutefish-settings/translations" TYPE FILE FILES
-    "/home/tokyo/clone/cuteclone/settings/build/ar_AA.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/az_AZ.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/be_BY.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/be_Latn.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/bg_BG.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/bs_BA.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/cs_CZ.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/da_DK.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/de_DE.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/en_US.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/eo_XX.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/es_ES.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/es_MX.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/fa_IR.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/fi_FI.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/fr_FR.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/he_IL.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/hi_IN.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/hu_HU.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/id_ID.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/ie.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/it_IT.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/ja_JP.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/lt_LT.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/lv_LV.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/mg.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/ml_IN.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/nb_NO.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/ne_NP.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/pl_PL.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/pt_BR.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/pt_PT.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/ro_RO.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/ru_RU.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/si_LK.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/sk_SK.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/so.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/sr_RS.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/sv_SE.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/sw.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/ta_IN.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/tr_TR.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/uk_UA.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/uz_UZ.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/vi_VN.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/zh_CN.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/zh_HK.qm"
-    "/home/tokyo/clone/cuteclone/settings/build/zh_TW.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/ar_AA.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/az_AZ.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/be_BY.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/be_Latn.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/bg_BG.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/bs_BA.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/cs_CZ.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/da_DK.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/de_DE.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/en_US.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/eo_XX.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/es_ES.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/es_MX.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/fa_IR.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/fi_FI.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/fr_FR.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/he_IL.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/hi_IN.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/hu_HU.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/id_ID.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/ie.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/it_IT.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/ja_JP.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/lt_LT.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/lv_LV.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/mg.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/ml_IN.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/nb_NO.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/ne_NP.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/pl_PL.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/pt_BR.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/pt_PT.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/ro_RO.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/ru_RU.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/si_LK.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/sk_SK.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/so.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/sr_RS.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/sv_SE.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/sw.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/ta_IN.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/tr_TR.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/uk_UA.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/uz_UZ.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/vi_VN.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/zh_CN.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/zh_HK.qm"
+    "/home/tokyo/Documents/GitHub/matsya-settings/build/zh_TW.qm"
     )
 endif()
 
@@ -139,5 +139,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tokyo/clone/cuteclone/settings/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tokyo/Documents/GitHub/matsya-settings/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

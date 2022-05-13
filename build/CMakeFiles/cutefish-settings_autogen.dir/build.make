@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/settings
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/matsya-settings
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/settings/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/matsya-settings/build
 
 # Utility rule file for cutefish-settings_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/settings/build
 include CMakeFiles/cutefish-settings_autogen.dir/progress.make
 
 CMakeFiles/cutefish-settings_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cutefish-settings"
-	/usr/bin/cmake -E cmake_autogen /home/tokyo/clone/cuteclone/settings/build/CMakeFiles/cutefish-settings_autogen.dir/AutogenInfo.json Build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cutefish-settings"
+	/usr/bin/cmake -E cmake_autogen /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/cutefish-settings_autogen.dir/AutogenInfo.json ""
 
 cutefish-settings_autogen: CMakeFiles/cutefish-settings_autogen
 cutefish-settings_autogen: CMakeFiles/cutefish-settings_autogen.dir/build.make
@@ -91,6 +91,6 @@ CMakeFiles/cutefish-settings_autogen.dir/clean:
 .PHONY : CMakeFiles/cutefish-settings_autogen.dir/clean
 
 CMakeFiles/cutefish-settings_autogen.dir/depend:
-	cd /home/tokyo/clone/cuteclone/settings/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/cuteclone/settings /home/tokyo/clone/cuteclone/settings /home/tokyo/clone/cuteclone/settings/build /home/tokyo/clone/cuteclone/settings/build /home/tokyo/clone/cuteclone/settings/build/CMakeFiles/cutefish-settings_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/matsya-settings/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/matsya-settings /home/tokyo/Documents/GitHub/matsya-settings /home/tokyo/Documents/GitHub/matsya-settings/build /home/tokyo/Documents/GitHub/matsya-settings/build /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/cutefish-settings_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cutefish-settings_autogen.dir/depend
 

@@ -1,5 +1,5 @@
-/home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/UVLADIE3JM/moc_language.cpp: /home/tokyo/clone/cuteclone/settings/src/language.h \
-  /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/UVLADIE3JM/moc_language.cpp: /home/tokyo/Documents/GitHub/matsya-settings/src/language.h \
+  /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \

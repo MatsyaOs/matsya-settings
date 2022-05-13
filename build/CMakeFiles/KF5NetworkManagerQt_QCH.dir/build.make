@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/settings
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/matsya-settings
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/settings/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/matsya-settings/build
 
 # Utility rule file for KF5NetworkManagerQt_QCH.
 
@@ -86,6 +86,6 @@ CMakeFiles/KF5NetworkManagerQt_QCH.dir/clean:
 .PHONY : CMakeFiles/KF5NetworkManagerQt_QCH.dir/clean
 
 CMakeFiles/KF5NetworkManagerQt_QCH.dir/depend:
-	cd /home/tokyo/clone/cuteclone/settings/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/cuteclone/settings /home/tokyo/clone/cuteclone/settings /home/tokyo/clone/cuteclone/settings/build /home/tokyo/clone/cuteclone/settings/build /home/tokyo/clone/cuteclone/settings/build/CMakeFiles/KF5NetworkManagerQt_QCH.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/matsya-settings/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/matsya-settings /home/tokyo/Documents/GitHub/matsya-settings /home/tokyo/Documents/GitHub/matsya-settings/build /home/tokyo/Documents/GitHub/matsya-settings/build /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/KF5NetworkManagerQt_QCH.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/KF5NetworkManagerQt_QCH.dir/depend
 

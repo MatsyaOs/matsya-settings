@@ -1,6 +1,6 @@
-/home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/BVGICNYJZY/moc_fonts.cpp: /home/tokyo/clone/cuteclone/settings/src/fonts/fonts.h \
-  /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/moc_predefs.h \
-  /home/tokyo/clone/cuteclone/settings/src/fonts/kxftconfig.h \
+/home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/BVGICNYJZY/moc_fonts.cpp: /home/tokyo/Documents/GitHub/matsya-settings/src/fonts/fonts.h \
+  /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/moc_predefs.h \
+  /home/tokyo/Documents/GitHub/matsya-settings/src/fonts/kxftconfig.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \

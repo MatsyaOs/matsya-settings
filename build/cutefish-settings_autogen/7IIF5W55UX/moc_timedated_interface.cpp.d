@@ -1,5 +1,5 @@
-/home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/7IIF5W55UX/moc_timedated_interface.cpp: /home/tokyo/clone/cuteclone/settings/src/datetime/timedated_interface.h \
-  /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/7IIF5W55UX/moc_timedated_interface.cpp: /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/timedated_interface.h \
+  /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \

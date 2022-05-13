@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/settings
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/matsya-settings
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/settings/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/matsya-settings/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cutefish-settings.dir/depend.make
@@ -77,12 +77,12 @@ include CMakeFiles/cutefish-settings.dir/progress.make
 include CMakeFiles/cutefish-settings.dir/flags.make
 
 settingsuiadaptor.moc: settingsuiadaptor.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating settingsuiadaptor.moc"
-	/usr/lib/qt5/bin/moc @/home/tokyo/clone/cuteclone/settings/build/settingsuiadaptor.moc_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating settingsuiadaptor.moc"
+	/usr/lib/qt5/bin/moc @/home/tokyo/Documents/GitHub/matsya-settings/build/settingsuiadaptor.moc_parameters
 
 settingsuiadaptor.cpp: ../src/com.cutefish.SettingsUI.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating settingsuiadaptor.cpp, settingsuiadaptor.h"
-	/usr/lib/qt5/bin/qdbusxml2cpp -m -a settingsuiadaptor -i src/application.h -l Application /home/tokyo/clone/cuteclone/settings/src/com.cutefish.SettingsUI.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating settingsuiadaptor.cpp, settingsuiadaptor.h"
+	/usr/lib/qt5/bin/qdbusxml2cpp -m -a settingsuiadaptor -i src/application.h -l Application /home/tokyo/Documents/GitHub/matsya-settings/src/com.cutefish.SettingsUI.xml
 
 settingsuiadaptor.h: settingsuiadaptor.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate settingsuiadaptor.h
@@ -241,425 +241,425 @@ cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp: ../src/images/dark/audio
 cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp: ../src/images/dark/network-wireless-connected-00.svg
 cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp: ../src/images/dark/network-wireless-connected-75.svg
 cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for src/resources.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/tokyo/clone/cuteclone/settings/build/CMakeFiles/cutefish-settings_autogen.dir/AutoRcc_resources_UVLADIE3JM_Info.json Build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for src/resources.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/cutefish-settings_autogen.dir/AutoRcc_resources_UVLADIE3JM_Info.json 
 
 CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.o: cutefish-settings_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.o -c /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/mocs_compilation.cpp
 
 CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/mocs_compilation.cpp > CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/mocs_compilation.cpp > CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/mocs_compilation.cpp -o CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/mocs_compilation.cpp -o CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.o: settingsuiadaptor.cpp
 CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.o: settingsuiadaptor.moc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.o -c /home/tokyo/clone/cuteclone/settings/build/settingsuiadaptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/build/settingsuiadaptor.cpp
 
 CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/build/settingsuiadaptor.cpp > CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/build/settingsuiadaptor.cpp > CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.i
 
 CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/build/settingsuiadaptor.cpp -o CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/build/settingsuiadaptor.cpp -o CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.o: ../src/cscreenmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/cscreenmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/cscreenmanager.cpp
 
 CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/cscreenmanager.cpp > CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/cscreenmanager.cpp > CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/cscreenmanager.cpp -o CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/cscreenmanager.cpp -o CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.o: ../src/cscreenoutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/cscreenoutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/cscreenoutput.cpp
 
 CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/cscreenoutput.cpp > CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/cscreenoutput.cpp > CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/cscreenoutput.cpp -o CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/cscreenoutput.cpp -o CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/application.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/application.cpp.o: ../src/application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cutefish-settings.dir/src/application.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/application.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cutefish-settings.dir/src/application.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/application.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/application.cpp
 
 CMakeFiles/cutefish-settings.dir/src/application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/application.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/application.cpp > CMakeFiles/cutefish-settings.dir/src/application.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/application.cpp > CMakeFiles/cutefish-settings.dir/src/application.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/application.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/application.cpp -o CMakeFiles/cutefish-settings.dir/src/application.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/application.cpp -o CMakeFiles/cutefish-settings.dir/src/application.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/main.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cutefish-settings.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/main.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cutefish-settings.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/main.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/main.cpp
 
 CMakeFiles/cutefish-settings.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/main.cpp > CMakeFiles/cutefish-settings.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/main.cpp > CMakeFiles/cutefish-settings.dir/src/main.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/main.cpp -o CMakeFiles/cutefish-settings.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/main.cpp -o CMakeFiles/cutefish-settings.dir/src/main.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/appearance.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/appearance.cpp.o: ../src/appearance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cutefish-settings.dir/src/appearance.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/appearance.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/appearance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cutefish-settings.dir/src/appearance.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/appearance.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/appearance.cpp
 
 CMakeFiles/cutefish-settings.dir/src/appearance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/appearance.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/appearance.cpp > CMakeFiles/cutefish-settings.dir/src/appearance.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/appearance.cpp > CMakeFiles/cutefish-settings.dir/src/appearance.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/appearance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/appearance.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/appearance.cpp -o CMakeFiles/cutefish-settings.dir/src/appearance.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/appearance.cpp -o CMakeFiles/cutefish-settings.dir/src/appearance.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/battery.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/battery.cpp.o: ../src/battery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cutefish-settings.dir/src/battery.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/battery.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/battery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cutefish-settings.dir/src/battery.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/battery.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/battery.cpp
 
 CMakeFiles/cutefish-settings.dir/src/battery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/battery.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/battery.cpp > CMakeFiles/cutefish-settings.dir/src/battery.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/battery.cpp > CMakeFiles/cutefish-settings.dir/src/battery.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/battery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/battery.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/battery.cpp -o CMakeFiles/cutefish-settings.dir/src/battery.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/battery.cpp -o CMakeFiles/cutefish-settings.dir/src/battery.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/brightness.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/brightness.cpp.o: ../src/brightness.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cutefish-settings.dir/src/brightness.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/brightness.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/brightness.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cutefish-settings.dir/src/brightness.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/brightness.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/brightness.cpp
 
 CMakeFiles/cutefish-settings.dir/src/brightness.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/brightness.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/brightness.cpp > CMakeFiles/cutefish-settings.dir/src/brightness.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/brightness.cpp > CMakeFiles/cutefish-settings.dir/src/brightness.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/brightness.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/brightness.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/brightness.cpp -o CMakeFiles/cutefish-settings.dir/src/brightness.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/brightness.cpp -o CMakeFiles/cutefish-settings.dir/src/brightness.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.o: ../src/fontsmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/fontsmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/fontsmodel.cpp
 
 CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/fontsmodel.cpp > CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/fontsmodel.cpp > CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/fontsmodel.cpp -o CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/fontsmodel.cpp -o CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/language.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/language.cpp.o: ../src/language.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cutefish-settings.dir/src/language.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/language.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/language.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cutefish-settings.dir/src/language.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/language.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/language.cpp
 
 CMakeFiles/cutefish-settings.dir/src/language.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/language.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/language.cpp > CMakeFiles/cutefish-settings.dir/src/language.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/language.cpp > CMakeFiles/cutefish-settings.dir/src/language.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/language.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/language.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/language.cpp -o CMakeFiles/cutefish-settings.dir/src/language.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/language.cpp -o CMakeFiles/cutefish-settings.dir/src/language.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/about.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/about.cpp.o: ../src/about.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cutefish-settings.dir/src/about.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/about.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/about.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cutefish-settings.dir/src/about.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/about.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/about.cpp
 
 CMakeFiles/cutefish-settings.dir/src/about.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/about.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/about.cpp > CMakeFiles/cutefish-settings.dir/src/about.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/about.cpp > CMakeFiles/cutefish-settings.dir/src/about.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/about.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/about.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/about.cpp -o CMakeFiles/cutefish-settings.dir/src/about.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/about.cpp -o CMakeFiles/cutefish-settings.dir/src/about.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/background.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/background.cpp.o: ../src/background.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cutefish-settings.dir/src/background.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/background.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/background.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cutefish-settings.dir/src/background.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/background.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/background.cpp
 
 CMakeFiles/cutefish-settings.dir/src/background.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/background.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/background.cpp > CMakeFiles/cutefish-settings.dir/src/background.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/background.cpp > CMakeFiles/cutefish-settings.dir/src/background.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/background.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/background.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/background.cpp -o CMakeFiles/cutefish-settings.dir/src/background.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/background.cpp -o CMakeFiles/cutefish-settings.dir/src/background.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/notifications.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/notifications.cpp.o: ../src/notifications.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cutefish-settings.dir/src/notifications.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/notifications.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/notifications.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cutefish-settings.dir/src/notifications.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/notifications.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/notifications.cpp
 
 CMakeFiles/cutefish-settings.dir/src/notifications.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/notifications.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/notifications.cpp > CMakeFiles/cutefish-settings.dir/src/notifications.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/notifications.cpp > CMakeFiles/cutefish-settings.dir/src/notifications.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/notifications.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/notifications.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/notifications.cpp -o CMakeFiles/cutefish-settings.dir/src/notifications.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/notifications.cpp -o CMakeFiles/cutefish-settings.dir/src/notifications.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/password.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/password.cpp.o: ../src/password.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cutefish-settings.dir/src/password.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/password.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/password.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cutefish-settings.dir/src/password.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/password.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/password.cpp
 
 CMakeFiles/cutefish-settings.dir/src/password.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/password.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/password.cpp > CMakeFiles/cutefish-settings.dir/src/password.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/password.cpp > CMakeFiles/cutefish-settings.dir/src/password.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/password.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/password.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/password.cpp -o CMakeFiles/cutefish-settings.dir/src/password.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/password.cpp -o CMakeFiles/cutefish-settings.dir/src/password.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.o: ../src/batteryhistorymodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/batteryhistorymodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/batteryhistorymodel.cpp
 
 CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/batteryhistorymodel.cpp > CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/batteryhistorymodel.cpp > CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/batteryhistorymodel.cpp -o CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/batteryhistorymodel.cpp -o CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.o: ../src/cicontheme.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/cicontheme.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/cicontheme.cpp
 
 CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/cicontheme.cpp > CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/cicontheme.cpp > CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/cicontheme.cpp -o CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/cicontheme.cpp -o CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.o: ../src/fonts/kxftconfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/fonts/kxftconfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/fonts/kxftconfig.cpp
 
 CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/fonts/kxftconfig.cpp > CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/fonts/kxftconfig.cpp > CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/fonts/kxftconfig.cpp -o CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/fonts/kxftconfig.cpp -o CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.o: ../src/fonts/fonts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/fonts/fonts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/fonts/fonts.cpp
 
 CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/fonts/fonts.cpp > CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/fonts/fonts.cpp > CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/fonts/fonts.cpp -o CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/fonts/fonts.cpp -o CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.o: ../src/powermanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/powermanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/powermanager.cpp
 
 CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/powermanager.cpp > CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/powermanager.cpp > CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/powermanager.cpp -o CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/powermanager.cpp -o CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.o: ../src/cursor/cursorthememodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/cursor/cursorthememodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/cursor/cursorthememodel.cpp
 
 CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/cursor/cursorthememodel.cpp > CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/cursor/cursorthememodel.cpp > CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/cursor/cursorthememodel.cpp -o CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/cursor/cursorthememodel.cpp -o CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.o: ../src/cursor/cursortheme.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/cursor/cursortheme.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/cursor/cursortheme.cpp
 
 CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/cursor/cursortheme.cpp > CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/cursor/cursortheme.cpp > CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/cursor/cursortheme.cpp -o CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/cursor/cursortheme.cpp -o CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.o: ../src/cursor/mouse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/cursor/mouse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/cursor/mouse.cpp
 
 CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/cursor/mouse.cpp > CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/cursor/mouse.cpp > CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/cursor/mouse.cpp -o CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/cursor/mouse.cpp -o CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.o: ../src/datetime/time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/datetime/time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/time.cpp
 
 CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/datetime/time.cpp > CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/time.cpp > CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/datetime/time.cpp -o CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/time.cpp -o CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.o: ../src/datetime/timezonemap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/datetime/timezonemap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/timezonemap.cpp
 
 CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/datetime/timezonemap.cpp > CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/timezonemap.cpp > CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/datetime/timezonemap.cpp -o CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/timezonemap.cpp -o CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.o: ../src/datetime/timedated_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/datetime/timedated_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/timedated_interface.cpp
 
 CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/datetime/timedated_interface.cpp > CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/timedated_interface.cpp > CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/datetime/timedated_interface.cpp -o CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/datetime/timedated_interface.cpp -o CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.o: ../src/touchpad.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/touchpad.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/touchpad.cpp
 
 CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/touchpad.cpp > CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/touchpad.cpp > CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/touchpad.cpp -o CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/touchpad.cpp -o CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.o: ../src/vpn/vpn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/vpn/vpn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/vpn/vpn.cpp
 
 CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/vpn/vpn.cpp > CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/vpn/vpn.cpp > CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/vpn/vpn.cpp -o CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/vpn/vpn.cpp -o CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.o: ../src/networkproxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/networkproxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/networkproxy.cpp
 
 CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/networkproxy.cpp > CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/networkproxy.cpp > CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/networkproxy.cpp -o CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/networkproxy.cpp -o CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.o: ../src/defaultapplications.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/defaultapplications.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/defaultapplications.cpp
 
 CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/defaultapplications.cpp > CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/defaultapplications.cpp > CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/defaultapplications.cpp -o CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/defaultapplications.cpp -o CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.s
 
 CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.o: ../src/desktopproperties.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.o -c /home/tokyo/clone/cuteclone/settings/src/desktopproperties.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/src/desktopproperties.cpp
 
 CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/src/desktopproperties.cpp > CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/src/desktopproperties.cpp > CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.i
 
 CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/src/desktopproperties.cpp -o CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/src/desktopproperties.cpp -o CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.s
 
 CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o: CMakeFiles/cutefish-settings.dir/flags.make
 CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o: cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o -c /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o -c /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp
 
 CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp > CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp > CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i
 
 CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/cuteclone/settings/build/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp -o CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp -o CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s
 
 # Object files for target cutefish-settings
 cutefish__settings_OBJECTS = \
@@ -763,7 +763,7 @@ cutefish-settings: /usr/lib/x86_64-linux-gnu/libXrender.so
 cutefish-settings: /usr/lib/x86_64-linux-gnu/libXfixes.so
 cutefish-settings: /usr/lib/x86_64-linux-gnu/libX11.so
 cutefish-settings: CMakeFiles/cutefish-settings.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tokyo/clone/cuteclone/settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable cutefish-settings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable cutefish-settings"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cutefish-settings.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -779,6 +779,6 @@ CMakeFiles/cutefish-settings.dir/depend: settingsuiadaptor.moc
 CMakeFiles/cutefish-settings.dir/depend: settingsuiadaptor.cpp
 CMakeFiles/cutefish-settings.dir/depend: settingsuiadaptor.h
 CMakeFiles/cutefish-settings.dir/depend: cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp
-	cd /home/tokyo/clone/cuteclone/settings/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/cuteclone/settings /home/tokyo/clone/cuteclone/settings /home/tokyo/clone/cuteclone/settings/build /home/tokyo/clone/cuteclone/settings/build /home/tokyo/clone/cuteclone/settings/build/CMakeFiles/cutefish-settings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/matsya-settings/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/matsya-settings /home/tokyo/Documents/GitHub/matsya-settings /home/tokyo/Documents/GitHub/matsya-settings/build /home/tokyo/Documents/GitHub/matsya-settings/build /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/cutefish-settings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cutefish-settings.dir/depend
 
