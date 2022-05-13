@@ -1,7 +1,7 @@
-/*
+matsya/*
  * Copyright (C) 2021 CutefishOS Team.
  *
- * Author:     Reion Wong <reion@cutefishos.com>
+ * Author:     Reion Wong <reion@matsyaos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,9 +21,9 @@
 
 Touchpad::Touchpad(QObject *parent)
     : QObject(parent)
-    , m_iface("com.cutefish.Settings",
+    , m_iface("com.matsya.Settings",
               "/Touchpad",
-              "com.cutefish.Touchpad",
+              "com.matsya.Touchpad",
               QDBusConnection::sessionBus(), this)
 {
 

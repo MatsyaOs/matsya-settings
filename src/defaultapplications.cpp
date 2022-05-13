@@ -79,7 +79,7 @@ void DefaultApplications::loadApps()
     QSettings mimeApps(mimeAppsListFilePath(), QSettings::IniFormat);
     mimeApps.beginGroup("Default Applications");
 
-    QSettings settings("cutefishos", "defaultApps");
+    QSettings settings("matsyaos", "defaultApps");
 
     QString defaultBrowser = mimeApps.value("x-scheme-handler/http").toString();
     QString defaultFM = mimeApps.value("inode/directory").toString();
@@ -236,7 +236,7 @@ void DefaultApplications::setDefaultTerminal(int index)
 
     qDebug() << index << desktop;
 
-    QSettings settings("cutefishos", "defaultApps");
+    QSettings settings("matsyaos", "defaultApps");
     settings.setValue("terminal", desktop);
 }
 

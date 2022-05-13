@@ -23,9 +23,9 @@
 Brightness::Brightness(QObject *parent)
     : QObject(parent)
     , m_dbusConnection(QDBusConnection::sessionBus())
-    , m_iface("com.cutefish.Settings",
+    , m_iface("com.matsya.Settings",
               "/Brightness",
-              "com.cutefish.Brightness", m_dbusConnection)
+              "com.matsya.Brightness", m_dbusConnection)
     , m_value(0)
     , m_enabled(false)
 {

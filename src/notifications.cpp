@@ -1,7 +1,7 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
+matsya/*
+ * Copyright (C) 2021 matsyaOS Team.
  *
- * Author:     Kate Leet <kateleet@cutefishos.com>
+ * Author:     Kate Leet <kateleet@matsyaos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,7 +25,7 @@
 Notifications::Notifications(QObject *parent)
     : QObject(parent)
 {
-    QSettings settings(QSettings::UserScope, "cutefishos", "notification");
+    QSettings settings(QSettings::UserScope, "matsyaos", "notification");
     m_doNotDisturb = settings.value("DoNotDisturb", false).toBool();
 }
 
@@ -38,9 +38,9 @@ void Notifications::setDoNotDisturb(bool enabled)
 {
     m_doNotDisturb = enabled;
 
-    QDBusInterface iface("com.cutefish.Notification",
+    QDBusInterface iface("com.matsya.Notification",
                          "/Notification",
-                         "com.cutefish.Notification", QDBusConnection::sessionBus());
+                         "com.matsya.Notification", QDBusConnection::sessionBus());
 
     if (iface.isValid()) {
         iface.asyncCall("setDoNotDisturb", enabled);
