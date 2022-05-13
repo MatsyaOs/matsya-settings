@@ -1,6 +1,6 @@
-# Settings
+# matsya-Settings
 
-The System Settings application for Cutefish Desktop.
+The System Settings application for Matsya Desktop a fork of cutefish desktop.
 
 ![screenshot](screenshots/Screenshot_20211025_150819.png)
 
