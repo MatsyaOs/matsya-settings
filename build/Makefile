@@ -189,17 +189,17 @@ translations/fast:
 .PHONY : translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-settings
+# Target rules for targets named matsya-settings
 
 # Build rule for target.
-cutefish-settings: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-settings
-.PHONY : cutefish-settings
+matsya-settings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-settings
+.PHONY : matsya-settings
 
 # fast build rule for target.
-cutefish-settings/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/build
-.PHONY : cutefish-settings/fast
+matsya-settings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/build
+.PHONY : matsya-settings/fast
 
 #=============================================================================
 # Target rules for targets named KF5ModemManagerQt_QCH
@@ -241,71 +241,71 @@ KF5NetworkManagerQt_QCH/fast:
 .PHONY : KF5NetworkManagerQt_QCH/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-settings_autogen
+# Target rules for targets named matsya-settings_autogen
 
 # Build rule for target.
-cutefish-settings_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-settings_autogen
-.PHONY : cutefish-settings_autogen
+matsya-settings_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-settings_autogen
+.PHONY : matsya-settings_autogen
 
 # fast build rule for target.
-cutefish-settings_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings_autogen.dir/build.make CMakeFiles/cutefish-settings_autogen.dir/build
-.PHONY : cutefish-settings_autogen/fast
+matsya-settings_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings_autogen.dir/build.make CMakeFiles/matsya-settings_autogen.dir/build
+.PHONY : matsya-settings_autogen/fast
 
-cutefish-settings_autogen/UVLADIE3JM/qrc_resources.o: cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o
+matsya-settings_autogen/UVLADIE3JM/qrc_resources.o: matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o
 
-.PHONY : cutefish-settings_autogen/UVLADIE3JM/qrc_resources.o
-
-# target to build an object file
-cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o
-.PHONY : cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o
-
-cutefish-settings_autogen/UVLADIE3JM/qrc_resources.i: cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i
-
-.PHONY : cutefish-settings_autogen/UVLADIE3JM/qrc_resources.i
-
-# target to preprocess a source file
-cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i
-.PHONY : cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i
-
-cutefish-settings_autogen/UVLADIE3JM/qrc_resources.s: cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s
-
-.PHONY : cutefish-settings_autogen/UVLADIE3JM/qrc_resources.s
-
-# target to generate assembly for a file
-cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s
-.PHONY : cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s
-
-cutefish-settings_autogen/mocs_compilation.o: cutefish-settings_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-settings_autogen/mocs_compilation.o
+.PHONY : matsya-settings_autogen/UVLADIE3JM/qrc_resources.o
 
 # target to build an object file
-cutefish-settings_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-settings_autogen/mocs_compilation.cpp.o
+matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o
+.PHONY : matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.o
 
-cutefish-settings_autogen/mocs_compilation.i: cutefish-settings_autogen/mocs_compilation.cpp.i
+matsya-settings_autogen/UVLADIE3JM/qrc_resources.i: matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i
 
-.PHONY : cutefish-settings_autogen/mocs_compilation.i
+.PHONY : matsya-settings_autogen/UVLADIE3JM/qrc_resources.i
 
 # target to preprocess a source file
-cutefish-settings_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-settings_autogen/mocs_compilation.cpp.i
+matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i
+.PHONY : matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.i
 
-cutefish-settings_autogen/mocs_compilation.s: cutefish-settings_autogen/mocs_compilation.cpp.s
+matsya-settings_autogen/UVLADIE3JM/qrc_resources.s: matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s
 
-.PHONY : cutefish-settings_autogen/mocs_compilation.s
+.PHONY : matsya-settings_autogen/UVLADIE3JM/qrc_resources.s
 
 # target to generate assembly for a file
-cutefish-settings_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/cutefish-settings_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-settings_autogen/mocs_compilation.cpp.s
+matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s
+.PHONY : matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp.s
+
+matsya-settings_autogen/mocs_compilation.o: matsya-settings_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-settings_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-settings_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/matsya-settings_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-settings_autogen/mocs_compilation.cpp.o
+
+matsya-settings_autogen/mocs_compilation.i: matsya-settings_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-settings_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-settings_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/matsya-settings_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-settings_autogen/mocs_compilation.cpp.i
+
+matsya-settings_autogen/mocs_compilation.s: matsya-settings_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-settings_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-settings_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/matsya-settings_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-settings_autogen/mocs_compilation.cpp.s
 
 settingsuiadaptor.o: settingsuiadaptor.cpp.o
 
@@ -313,7 +313,7 @@ settingsuiadaptor.o: settingsuiadaptor.cpp.o
 
 # target to build an object file
 settingsuiadaptor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/settingsuiadaptor.cpp.o
 .PHONY : settingsuiadaptor.cpp.o
 
 settingsuiadaptor.i: settingsuiadaptor.cpp.i
@@ -322,7 +322,7 @@ settingsuiadaptor.i: settingsuiadaptor.cpp.i
 
 # target to preprocess a source file
 settingsuiadaptor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/settingsuiadaptor.cpp.i
 .PHONY : settingsuiadaptor.cpp.i
 
 settingsuiadaptor.s: settingsuiadaptor.cpp.s
@@ -331,7 +331,7 @@ settingsuiadaptor.s: settingsuiadaptor.cpp.s
 
 # target to generate assembly for a file
 settingsuiadaptor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/settingsuiadaptor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/settingsuiadaptor.cpp.s
 .PHONY : settingsuiadaptor.cpp.s
 
 src/about.o: src/about.cpp.o
@@ -340,7 +340,7 @@ src/about.o: src/about.cpp.o
 
 # target to build an object file
 src/about.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/about.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/about.cpp.o
 .PHONY : src/about.cpp.o
 
 src/about.i: src/about.cpp.i
@@ -349,7 +349,7 @@ src/about.i: src/about.cpp.i
 
 # target to preprocess a source file
 src/about.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/about.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/about.cpp.i
 .PHONY : src/about.cpp.i
 
 src/about.s: src/about.cpp.s
@@ -358,7 +358,7 @@ src/about.s: src/about.cpp.s
 
 # target to generate assembly for a file
 src/about.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/about.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/about.cpp.s
 .PHONY : src/about.cpp.s
 
 src/appearance.o: src/appearance.cpp.o
@@ -367,7 +367,7 @@ src/appearance.o: src/appearance.cpp.o
 
 # target to build an object file
 src/appearance.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/appearance.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/appearance.cpp.o
 .PHONY : src/appearance.cpp.o
 
 src/appearance.i: src/appearance.cpp.i
@@ -376,7 +376,7 @@ src/appearance.i: src/appearance.cpp.i
 
 # target to preprocess a source file
 src/appearance.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/appearance.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/appearance.cpp.i
 .PHONY : src/appearance.cpp.i
 
 src/appearance.s: src/appearance.cpp.s
@@ -385,7 +385,7 @@ src/appearance.s: src/appearance.cpp.s
 
 # target to generate assembly for a file
 src/appearance.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/appearance.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/appearance.cpp.s
 .PHONY : src/appearance.cpp.s
 
 src/application.o: src/application.cpp.o
@@ -394,7 +394,7 @@ src/application.o: src/application.cpp.o
 
 # target to build an object file
 src/application.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/application.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/application.cpp.o
 .PHONY : src/application.cpp.o
 
 src/application.i: src/application.cpp.i
@@ -403,7 +403,7 @@ src/application.i: src/application.cpp.i
 
 # target to preprocess a source file
 src/application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/application.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/application.cpp.i
 .PHONY : src/application.cpp.i
 
 src/application.s: src/application.cpp.s
@@ -412,7 +412,7 @@ src/application.s: src/application.cpp.s
 
 # target to generate assembly for a file
 src/application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/application.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/application.cpp.s
 .PHONY : src/application.cpp.s
 
 src/background.o: src/background.cpp.o
@@ -421,7 +421,7 @@ src/background.o: src/background.cpp.o
 
 # target to build an object file
 src/background.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/background.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/background.cpp.o
 .PHONY : src/background.cpp.o
 
 src/background.i: src/background.cpp.i
@@ -430,7 +430,7 @@ src/background.i: src/background.cpp.i
 
 # target to preprocess a source file
 src/background.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/background.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/background.cpp.i
 .PHONY : src/background.cpp.i
 
 src/background.s: src/background.cpp.s
@@ -439,7 +439,7 @@ src/background.s: src/background.cpp.s
 
 # target to generate assembly for a file
 src/background.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/background.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/background.cpp.s
 .PHONY : src/background.cpp.s
 
 src/battery.o: src/battery.cpp.o
@@ -448,7 +448,7 @@ src/battery.o: src/battery.cpp.o
 
 # target to build an object file
 src/battery.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/battery.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/battery.cpp.o
 .PHONY : src/battery.cpp.o
 
 src/battery.i: src/battery.cpp.i
@@ -457,7 +457,7 @@ src/battery.i: src/battery.cpp.i
 
 # target to preprocess a source file
 src/battery.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/battery.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/battery.cpp.i
 .PHONY : src/battery.cpp.i
 
 src/battery.s: src/battery.cpp.s
@@ -466,7 +466,7 @@ src/battery.s: src/battery.cpp.s
 
 # target to generate assembly for a file
 src/battery.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/battery.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/battery.cpp.s
 .PHONY : src/battery.cpp.s
 
 src/batteryhistorymodel.o: src/batteryhistorymodel.cpp.o
@@ -475,7 +475,7 @@ src/batteryhistorymodel.o: src/batteryhistorymodel.cpp.o
 
 # target to build an object file
 src/batteryhistorymodel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/batteryhistorymodel.cpp.o
 .PHONY : src/batteryhistorymodel.cpp.o
 
 src/batteryhistorymodel.i: src/batteryhistorymodel.cpp.i
@@ -484,7 +484,7 @@ src/batteryhistorymodel.i: src/batteryhistorymodel.cpp.i
 
 # target to preprocess a source file
 src/batteryhistorymodel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/batteryhistorymodel.cpp.i
 .PHONY : src/batteryhistorymodel.cpp.i
 
 src/batteryhistorymodel.s: src/batteryhistorymodel.cpp.s
@@ -493,7 +493,7 @@ src/batteryhistorymodel.s: src/batteryhistorymodel.cpp.s
 
 # target to generate assembly for a file
 src/batteryhistorymodel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/batteryhistorymodel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/batteryhistorymodel.cpp.s
 .PHONY : src/batteryhistorymodel.cpp.s
 
 src/brightness.o: src/brightness.cpp.o
@@ -502,7 +502,7 @@ src/brightness.o: src/brightness.cpp.o
 
 # target to build an object file
 src/brightness.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/brightness.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/brightness.cpp.o
 .PHONY : src/brightness.cpp.o
 
 src/brightness.i: src/brightness.cpp.i
@@ -511,7 +511,7 @@ src/brightness.i: src/brightness.cpp.i
 
 # target to preprocess a source file
 src/brightness.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/brightness.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/brightness.cpp.i
 .PHONY : src/brightness.cpp.i
 
 src/brightness.s: src/brightness.cpp.s
@@ -520,7 +520,7 @@ src/brightness.s: src/brightness.cpp.s
 
 # target to generate assembly for a file
 src/brightness.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/brightness.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/brightness.cpp.s
 .PHONY : src/brightness.cpp.s
 
 src/cicontheme.o: src/cicontheme.cpp.o
@@ -529,7 +529,7 @@ src/cicontheme.o: src/cicontheme.cpp.o
 
 # target to build an object file
 src/cicontheme.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cicontheme.cpp.o
 .PHONY : src/cicontheme.cpp.o
 
 src/cicontheme.i: src/cicontheme.cpp.i
@@ -538,7 +538,7 @@ src/cicontheme.i: src/cicontheme.cpp.i
 
 # target to preprocess a source file
 src/cicontheme.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cicontheme.cpp.i
 .PHONY : src/cicontheme.cpp.i
 
 src/cicontheme.s: src/cicontheme.cpp.s
@@ -547,7 +547,7 @@ src/cicontheme.s: src/cicontheme.cpp.s
 
 # target to generate assembly for a file
 src/cicontheme.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cicontheme.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cicontheme.cpp.s
 .PHONY : src/cicontheme.cpp.s
 
 src/cscreenmanager.o: src/cscreenmanager.cpp.o
@@ -556,7 +556,7 @@ src/cscreenmanager.o: src/cscreenmanager.cpp.o
 
 # target to build an object file
 src/cscreenmanager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cscreenmanager.cpp.o
 .PHONY : src/cscreenmanager.cpp.o
 
 src/cscreenmanager.i: src/cscreenmanager.cpp.i
@@ -565,7 +565,7 @@ src/cscreenmanager.i: src/cscreenmanager.cpp.i
 
 # target to preprocess a source file
 src/cscreenmanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cscreenmanager.cpp.i
 .PHONY : src/cscreenmanager.cpp.i
 
 src/cscreenmanager.s: src/cscreenmanager.cpp.s
@@ -574,7 +574,7 @@ src/cscreenmanager.s: src/cscreenmanager.cpp.s
 
 # target to generate assembly for a file
 src/cscreenmanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cscreenmanager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cscreenmanager.cpp.s
 .PHONY : src/cscreenmanager.cpp.s
 
 src/cscreenoutput.o: src/cscreenoutput.cpp.o
@@ -583,7 +583,7 @@ src/cscreenoutput.o: src/cscreenoutput.cpp.o
 
 # target to build an object file
 src/cscreenoutput.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cscreenoutput.cpp.o
 .PHONY : src/cscreenoutput.cpp.o
 
 src/cscreenoutput.i: src/cscreenoutput.cpp.i
@@ -592,7 +592,7 @@ src/cscreenoutput.i: src/cscreenoutput.cpp.i
 
 # target to preprocess a source file
 src/cscreenoutput.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cscreenoutput.cpp.i
 .PHONY : src/cscreenoutput.cpp.i
 
 src/cscreenoutput.s: src/cscreenoutput.cpp.s
@@ -601,7 +601,7 @@ src/cscreenoutput.s: src/cscreenoutput.cpp.s
 
 # target to generate assembly for a file
 src/cscreenoutput.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cscreenoutput.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cscreenoutput.cpp.s
 .PHONY : src/cscreenoutput.cpp.s
 
 src/cursor/cursortheme.o: src/cursor/cursortheme.cpp.o
@@ -610,7 +610,7 @@ src/cursor/cursortheme.o: src/cursor/cursortheme.cpp.o
 
 # target to build an object file
 src/cursor/cursortheme.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cursor/cursortheme.cpp.o
 .PHONY : src/cursor/cursortheme.cpp.o
 
 src/cursor/cursortheme.i: src/cursor/cursortheme.cpp.i
@@ -619,7 +619,7 @@ src/cursor/cursortheme.i: src/cursor/cursortheme.cpp.i
 
 # target to preprocess a source file
 src/cursor/cursortheme.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cursor/cursortheme.cpp.i
 .PHONY : src/cursor/cursortheme.cpp.i
 
 src/cursor/cursortheme.s: src/cursor/cursortheme.cpp.s
@@ -628,7 +628,7 @@ src/cursor/cursortheme.s: src/cursor/cursortheme.cpp.s
 
 # target to generate assembly for a file
 src/cursor/cursortheme.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cursor/cursortheme.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cursor/cursortheme.cpp.s
 .PHONY : src/cursor/cursortheme.cpp.s
 
 src/cursor/cursorthememodel.o: src/cursor/cursorthememodel.cpp.o
@@ -637,7 +637,7 @@ src/cursor/cursorthememodel.o: src/cursor/cursorthememodel.cpp.o
 
 # target to build an object file
 src/cursor/cursorthememodel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cursor/cursorthememodel.cpp.o
 .PHONY : src/cursor/cursorthememodel.cpp.o
 
 src/cursor/cursorthememodel.i: src/cursor/cursorthememodel.cpp.i
@@ -646,7 +646,7 @@ src/cursor/cursorthememodel.i: src/cursor/cursorthememodel.cpp.i
 
 # target to preprocess a source file
 src/cursor/cursorthememodel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cursor/cursorthememodel.cpp.i
 .PHONY : src/cursor/cursorthememodel.cpp.i
 
 src/cursor/cursorthememodel.s: src/cursor/cursorthememodel.cpp.s
@@ -655,7 +655,7 @@ src/cursor/cursorthememodel.s: src/cursor/cursorthememodel.cpp.s
 
 # target to generate assembly for a file
 src/cursor/cursorthememodel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cursor/cursorthememodel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cursor/cursorthememodel.cpp.s
 .PHONY : src/cursor/cursorthememodel.cpp.s
 
 src/cursor/mouse.o: src/cursor/mouse.cpp.o
@@ -664,7 +664,7 @@ src/cursor/mouse.o: src/cursor/mouse.cpp.o
 
 # target to build an object file
 src/cursor/mouse.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cursor/mouse.cpp.o
 .PHONY : src/cursor/mouse.cpp.o
 
 src/cursor/mouse.i: src/cursor/mouse.cpp.i
@@ -673,7 +673,7 @@ src/cursor/mouse.i: src/cursor/mouse.cpp.i
 
 # target to preprocess a source file
 src/cursor/mouse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cursor/mouse.cpp.i
 .PHONY : src/cursor/mouse.cpp.i
 
 src/cursor/mouse.s: src/cursor/mouse.cpp.s
@@ -682,7 +682,7 @@ src/cursor/mouse.s: src/cursor/mouse.cpp.s
 
 # target to generate assembly for a file
 src/cursor/mouse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/cursor/mouse.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/cursor/mouse.cpp.s
 .PHONY : src/cursor/mouse.cpp.s
 
 src/datetime/time.o: src/datetime/time.cpp.o
@@ -691,7 +691,7 @@ src/datetime/time.o: src/datetime/time.cpp.o
 
 # target to build an object file
 src/datetime/time.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/datetime/time.cpp.o
 .PHONY : src/datetime/time.cpp.o
 
 src/datetime/time.i: src/datetime/time.cpp.i
@@ -700,7 +700,7 @@ src/datetime/time.i: src/datetime/time.cpp.i
 
 # target to preprocess a source file
 src/datetime/time.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/datetime/time.cpp.i
 .PHONY : src/datetime/time.cpp.i
 
 src/datetime/time.s: src/datetime/time.cpp.s
@@ -709,7 +709,7 @@ src/datetime/time.s: src/datetime/time.cpp.s
 
 # target to generate assembly for a file
 src/datetime/time.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/datetime/time.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/datetime/time.cpp.s
 .PHONY : src/datetime/time.cpp.s
 
 src/datetime/timedated_interface.o: src/datetime/timedated_interface.cpp.o
@@ -718,7 +718,7 @@ src/datetime/timedated_interface.o: src/datetime/timedated_interface.cpp.o
 
 # target to build an object file
 src/datetime/timedated_interface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/datetime/timedated_interface.cpp.o
 .PHONY : src/datetime/timedated_interface.cpp.o
 
 src/datetime/timedated_interface.i: src/datetime/timedated_interface.cpp.i
@@ -727,7 +727,7 @@ src/datetime/timedated_interface.i: src/datetime/timedated_interface.cpp.i
 
 # target to preprocess a source file
 src/datetime/timedated_interface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/datetime/timedated_interface.cpp.i
 .PHONY : src/datetime/timedated_interface.cpp.i
 
 src/datetime/timedated_interface.s: src/datetime/timedated_interface.cpp.s
@@ -736,7 +736,7 @@ src/datetime/timedated_interface.s: src/datetime/timedated_interface.cpp.s
 
 # target to generate assembly for a file
 src/datetime/timedated_interface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/datetime/timedated_interface.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/datetime/timedated_interface.cpp.s
 .PHONY : src/datetime/timedated_interface.cpp.s
 
 src/datetime/timezonemap.o: src/datetime/timezonemap.cpp.o
@@ -745,7 +745,7 @@ src/datetime/timezonemap.o: src/datetime/timezonemap.cpp.o
 
 # target to build an object file
 src/datetime/timezonemap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/datetime/timezonemap.cpp.o
 .PHONY : src/datetime/timezonemap.cpp.o
 
 src/datetime/timezonemap.i: src/datetime/timezonemap.cpp.i
@@ -754,7 +754,7 @@ src/datetime/timezonemap.i: src/datetime/timezonemap.cpp.i
 
 # target to preprocess a source file
 src/datetime/timezonemap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/datetime/timezonemap.cpp.i
 .PHONY : src/datetime/timezonemap.cpp.i
 
 src/datetime/timezonemap.s: src/datetime/timezonemap.cpp.s
@@ -763,7 +763,7 @@ src/datetime/timezonemap.s: src/datetime/timezonemap.cpp.s
 
 # target to generate assembly for a file
 src/datetime/timezonemap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/datetime/timezonemap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/datetime/timezonemap.cpp.s
 .PHONY : src/datetime/timezonemap.cpp.s
 
 src/defaultapplications.o: src/defaultapplications.cpp.o
@@ -772,7 +772,7 @@ src/defaultapplications.o: src/defaultapplications.cpp.o
 
 # target to build an object file
 src/defaultapplications.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/defaultapplications.cpp.o
 .PHONY : src/defaultapplications.cpp.o
 
 src/defaultapplications.i: src/defaultapplications.cpp.i
@@ -781,7 +781,7 @@ src/defaultapplications.i: src/defaultapplications.cpp.i
 
 # target to preprocess a source file
 src/defaultapplications.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/defaultapplications.cpp.i
 .PHONY : src/defaultapplications.cpp.i
 
 src/defaultapplications.s: src/defaultapplications.cpp.s
@@ -790,7 +790,7 @@ src/defaultapplications.s: src/defaultapplications.cpp.s
 
 # target to generate assembly for a file
 src/defaultapplications.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/defaultapplications.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/defaultapplications.cpp.s
 .PHONY : src/defaultapplications.cpp.s
 
 src/desktopproperties.o: src/desktopproperties.cpp.o
@@ -799,7 +799,7 @@ src/desktopproperties.o: src/desktopproperties.cpp.o
 
 # target to build an object file
 src/desktopproperties.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/desktopproperties.cpp.o
 .PHONY : src/desktopproperties.cpp.o
 
 src/desktopproperties.i: src/desktopproperties.cpp.i
@@ -808,7 +808,7 @@ src/desktopproperties.i: src/desktopproperties.cpp.i
 
 # target to preprocess a source file
 src/desktopproperties.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/desktopproperties.cpp.i
 .PHONY : src/desktopproperties.cpp.i
 
 src/desktopproperties.s: src/desktopproperties.cpp.s
@@ -817,7 +817,7 @@ src/desktopproperties.s: src/desktopproperties.cpp.s
 
 # target to generate assembly for a file
 src/desktopproperties.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/desktopproperties.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/desktopproperties.cpp.s
 .PHONY : src/desktopproperties.cpp.s
 
 src/fonts/fonts.o: src/fonts/fonts.cpp.o
@@ -826,7 +826,7 @@ src/fonts/fonts.o: src/fonts/fonts.cpp.o
 
 # target to build an object file
 src/fonts/fonts.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/fonts/fonts.cpp.o
 .PHONY : src/fonts/fonts.cpp.o
 
 src/fonts/fonts.i: src/fonts/fonts.cpp.i
@@ -835,7 +835,7 @@ src/fonts/fonts.i: src/fonts/fonts.cpp.i
 
 # target to preprocess a source file
 src/fonts/fonts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/fonts/fonts.cpp.i
 .PHONY : src/fonts/fonts.cpp.i
 
 src/fonts/fonts.s: src/fonts/fonts.cpp.s
@@ -844,7 +844,7 @@ src/fonts/fonts.s: src/fonts/fonts.cpp.s
 
 # target to generate assembly for a file
 src/fonts/fonts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/fonts/fonts.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/fonts/fonts.cpp.s
 .PHONY : src/fonts/fonts.cpp.s
 
 src/fonts/kxftconfig.o: src/fonts/kxftconfig.cpp.o
@@ -853,7 +853,7 @@ src/fonts/kxftconfig.o: src/fonts/kxftconfig.cpp.o
 
 # target to build an object file
 src/fonts/kxftconfig.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/fonts/kxftconfig.cpp.o
 .PHONY : src/fonts/kxftconfig.cpp.o
 
 src/fonts/kxftconfig.i: src/fonts/kxftconfig.cpp.i
@@ -862,7 +862,7 @@ src/fonts/kxftconfig.i: src/fonts/kxftconfig.cpp.i
 
 # target to preprocess a source file
 src/fonts/kxftconfig.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/fonts/kxftconfig.cpp.i
 .PHONY : src/fonts/kxftconfig.cpp.i
 
 src/fonts/kxftconfig.s: src/fonts/kxftconfig.cpp.s
@@ -871,7 +871,7 @@ src/fonts/kxftconfig.s: src/fonts/kxftconfig.cpp.s
 
 # target to generate assembly for a file
 src/fonts/kxftconfig.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/fonts/kxftconfig.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/fonts/kxftconfig.cpp.s
 .PHONY : src/fonts/kxftconfig.cpp.s
 
 src/fontsmodel.o: src/fontsmodel.cpp.o
@@ -880,7 +880,7 @@ src/fontsmodel.o: src/fontsmodel.cpp.o
 
 # target to build an object file
 src/fontsmodel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/fontsmodel.cpp.o
 .PHONY : src/fontsmodel.cpp.o
 
 src/fontsmodel.i: src/fontsmodel.cpp.i
@@ -889,7 +889,7 @@ src/fontsmodel.i: src/fontsmodel.cpp.i
 
 # target to preprocess a source file
 src/fontsmodel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/fontsmodel.cpp.i
 .PHONY : src/fontsmodel.cpp.i
 
 src/fontsmodel.s: src/fontsmodel.cpp.s
@@ -898,7 +898,7 @@ src/fontsmodel.s: src/fontsmodel.cpp.s
 
 # target to generate assembly for a file
 src/fontsmodel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/fontsmodel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/fontsmodel.cpp.s
 .PHONY : src/fontsmodel.cpp.s
 
 src/language.o: src/language.cpp.o
@@ -907,7 +907,7 @@ src/language.o: src/language.cpp.o
 
 # target to build an object file
 src/language.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/language.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/language.cpp.o
 .PHONY : src/language.cpp.o
 
 src/language.i: src/language.cpp.i
@@ -916,7 +916,7 @@ src/language.i: src/language.cpp.i
 
 # target to preprocess a source file
 src/language.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/language.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/language.cpp.i
 .PHONY : src/language.cpp.i
 
 src/language.s: src/language.cpp.s
@@ -925,7 +925,7 @@ src/language.s: src/language.cpp.s
 
 # target to generate assembly for a file
 src/language.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/language.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/language.cpp.s
 .PHONY : src/language.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -934,7 +934,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -943,7 +943,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -952,7 +952,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/networkproxy.o: src/networkproxy.cpp.o
@@ -961,7 +961,7 @@ src/networkproxy.o: src/networkproxy.cpp.o
 
 # target to build an object file
 src/networkproxy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/networkproxy.cpp.o
 .PHONY : src/networkproxy.cpp.o
 
 src/networkproxy.i: src/networkproxy.cpp.i
@@ -970,7 +970,7 @@ src/networkproxy.i: src/networkproxy.cpp.i
 
 # target to preprocess a source file
 src/networkproxy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/networkproxy.cpp.i
 .PHONY : src/networkproxy.cpp.i
 
 src/networkproxy.s: src/networkproxy.cpp.s
@@ -979,7 +979,7 @@ src/networkproxy.s: src/networkproxy.cpp.s
 
 # target to generate assembly for a file
 src/networkproxy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/networkproxy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/networkproxy.cpp.s
 .PHONY : src/networkproxy.cpp.s
 
 src/notifications.o: src/notifications.cpp.o
@@ -988,7 +988,7 @@ src/notifications.o: src/notifications.cpp.o
 
 # target to build an object file
 src/notifications.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/notifications.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/notifications.cpp.o
 .PHONY : src/notifications.cpp.o
 
 src/notifications.i: src/notifications.cpp.i
@@ -997,7 +997,7 @@ src/notifications.i: src/notifications.cpp.i
 
 # target to preprocess a source file
 src/notifications.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/notifications.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/notifications.cpp.i
 .PHONY : src/notifications.cpp.i
 
 src/notifications.s: src/notifications.cpp.s
@@ -1006,7 +1006,7 @@ src/notifications.s: src/notifications.cpp.s
 
 # target to generate assembly for a file
 src/notifications.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/notifications.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/notifications.cpp.s
 .PHONY : src/notifications.cpp.s
 
 src/password.o: src/password.cpp.o
@@ -1015,7 +1015,7 @@ src/password.o: src/password.cpp.o
 
 # target to build an object file
 src/password.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/password.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/password.cpp.o
 .PHONY : src/password.cpp.o
 
 src/password.i: src/password.cpp.i
@@ -1024,7 +1024,7 @@ src/password.i: src/password.cpp.i
 
 # target to preprocess a source file
 src/password.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/password.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/password.cpp.i
 .PHONY : src/password.cpp.i
 
 src/password.s: src/password.cpp.s
@@ -1033,7 +1033,7 @@ src/password.s: src/password.cpp.s
 
 # target to generate assembly for a file
 src/password.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/password.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/password.cpp.s
 .PHONY : src/password.cpp.s
 
 src/powermanager.o: src/powermanager.cpp.o
@@ -1042,7 +1042,7 @@ src/powermanager.o: src/powermanager.cpp.o
 
 # target to build an object file
 src/powermanager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/powermanager.cpp.o
 .PHONY : src/powermanager.cpp.o
 
 src/powermanager.i: src/powermanager.cpp.i
@@ -1051,7 +1051,7 @@ src/powermanager.i: src/powermanager.cpp.i
 
 # target to preprocess a source file
 src/powermanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/powermanager.cpp.i
 .PHONY : src/powermanager.cpp.i
 
 src/powermanager.s: src/powermanager.cpp.s
@@ -1060,7 +1060,7 @@ src/powermanager.s: src/powermanager.cpp.s
 
 # target to generate assembly for a file
 src/powermanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/powermanager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/powermanager.cpp.s
 .PHONY : src/powermanager.cpp.s
 
 src/touchpad.o: src/touchpad.cpp.o
@@ -1069,7 +1069,7 @@ src/touchpad.o: src/touchpad.cpp.o
 
 # target to build an object file
 src/touchpad.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/touchpad.cpp.o
 .PHONY : src/touchpad.cpp.o
 
 src/touchpad.i: src/touchpad.cpp.i
@@ -1078,7 +1078,7 @@ src/touchpad.i: src/touchpad.cpp.i
 
 # target to preprocess a source file
 src/touchpad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/touchpad.cpp.i
 .PHONY : src/touchpad.cpp.i
 
 src/touchpad.s: src/touchpad.cpp.s
@@ -1087,7 +1087,7 @@ src/touchpad.s: src/touchpad.cpp.s
 
 # target to generate assembly for a file
 src/touchpad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/touchpad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/touchpad.cpp.s
 .PHONY : src/touchpad.cpp.s
 
 src/vpn/vpn.o: src/vpn/vpn.cpp.o
@@ -1096,7 +1096,7 @@ src/vpn/vpn.o: src/vpn/vpn.cpp.o
 
 # target to build an object file
 src/vpn/vpn.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/vpn/vpn.cpp.o
 .PHONY : src/vpn/vpn.cpp.o
 
 src/vpn/vpn.i: src/vpn/vpn.cpp.i
@@ -1105,7 +1105,7 @@ src/vpn/vpn.i: src/vpn/vpn.cpp.i
 
 # target to preprocess a source file
 src/vpn/vpn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/vpn/vpn.cpp.i
 .PHONY : src/vpn/vpn.cpp.i
 
 src/vpn/vpn.s: src/vpn/vpn.cpp.s
@@ -1114,7 +1114,7 @@ src/vpn/vpn.s: src/vpn/vpn.cpp.s
 
 # target to generate assembly for a file
 src/vpn/vpn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-settings.dir/build.make CMakeFiles/cutefish-settings.dir/src/vpn/vpn.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-settings.dir/build.make CMakeFiles/matsya-settings.dir/src/vpn/vpn.cpp.s
 .PHONY : src/vpn/vpn.cpp.s
 
 # Help Target
@@ -1132,15 +1132,15 @@ help:
 	@echo "... KF5Config_QCH"
 	@echo "... KF5ModemManagerQt_QCH"
 	@echo "... KF5NetworkManagerQt_QCH"
-	@echo "... cutefish-settings_autogen"
+	@echo "... matsya-settings_autogen"
 	@echo "... translations"
-	@echo "... cutefish-settings"
-	@echo "... cutefish-settings_autogen/UVLADIE3JM/qrc_resources.o"
-	@echo "... cutefish-settings_autogen/UVLADIE3JM/qrc_resources.i"
-	@echo "... cutefish-settings_autogen/UVLADIE3JM/qrc_resources.s"
-	@echo "... cutefish-settings_autogen/mocs_compilation.o"
-	@echo "... cutefish-settings_autogen/mocs_compilation.i"
-	@echo "... cutefish-settings_autogen/mocs_compilation.s"
+	@echo "... matsya-settings"
+	@echo "... matsya-settings_autogen/UVLADIE3JM/qrc_resources.o"
+	@echo "... matsya-settings_autogen/UVLADIE3JM/qrc_resources.i"
+	@echo "... matsya-settings_autogen/UVLADIE3JM/qrc_resources.s"
+	@echo "... matsya-settings_autogen/mocs_compilation.o"
+	@echo "... matsya-settings_autogen/mocs_compilation.i"
+	@echo "... matsya-settings_autogen/mocs_compilation.s"
 	@echo "... settingsuiadaptor.o"
 	@echo "... settingsuiadaptor.i"
 	@echo "... settingsuiadaptor.s"

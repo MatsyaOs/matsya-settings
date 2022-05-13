@@ -223,17 +223,17 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
-  "CMakeFiles/cutefish-settings_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/cutefish-settings_autogen.dir/AutoRcc_resources_UVLADIE3JM_Info.json"
+  "CMakeFiles/matsya-settings_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/matsya-settings_autogen.dir/AutoRcc_resources_UVLADIE3JM_Info.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/translations.dir/DependInfo.cmake"
-  "CMakeFiles/cutefish-settings.dir/DependInfo.cmake"
+  "CMakeFiles/matsya-settings.dir/DependInfo.cmake"
   "CMakeFiles/KF5ModemManagerQt_QCH.dir/DependInfo.cmake"
   "CMakeFiles/KF5Config_QCH.dir/DependInfo.cmake"
   "CMakeFiles/KF5NetworkManagerQt_QCH.dir/DependInfo.cmake"
-  "CMakeFiles/cutefish-settings_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/matsya-settings_autogen.dir/DependInfo.cmake"
   )

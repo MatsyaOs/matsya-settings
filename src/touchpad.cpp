@@ -1,4 +1,4 @@
-matsya/*
+/*
  * Copyright (C) 2021 CutefishOS Team.
  *
  * Author:     Reion Wong <reion@matsyaos.com>

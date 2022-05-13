@@ -1,4 +1,4 @@
-matsya/*
+/*
  * Copyright (C) 2021 matsyaOS Team.
  *
  * Author:     Kate Leet <kateleet@matsyaos.com>

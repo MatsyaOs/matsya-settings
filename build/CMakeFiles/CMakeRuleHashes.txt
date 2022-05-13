@@ -47,7 +47,7 @@ d9a7ee927c0df13e72c2a39a8766820d ../translations/tr_TR.ts
 476dd443ed9e4f87064eb59f953b5f47 ../translations/zh_CN.ts
 21fce3ddd186157cde5cf39547ed2ed5 ../translations/zh_HK.ts
 8241227dddc415df6a5f2e8df1ab3f5b ../translations/zh_TW.ts
-ccb2ffb7d0832a6675538f9bfe73cbf9 CMakeFiles/cutefish-settings_autogen
+c617d94f62d045192a21de368b37f9ec CMakeFiles/matsya-settings_autogen
 80aec3ddb6e57c28d30b461cddc4a71e CMakeFiles/translations
 68164e67530512aefcad8908a111651e ar_AA.qm
 7e4ea4c0c875d5aa82aa7e1019f118be az_AZ.qm
@@ -56,7 +56,6 @@ ebf6c73e26707b893735e247e42d103e be_Latn.qm
 8e1c976cd87cb9cc1b9d1159d9aaea50 bg_BG.qm
 5dc3f398601e10f823cddddd364e0778 bs_BA.qm
 3e67ee50566feb0cc9c8f47d0020108a cs_CZ.qm
-d36d67d63a2f12c28aca82514e513a09 cutefish-settings_autogen/UVLADIE3JM/qrc_resources.cpp
 64e0cfb8dbdc2f2fd98229b276839ee7 da_DK.qm
 0862da5d809dab2d579565b824173164 de_DE.qm
 e4575cfed8daf14a0e1e6c50a1b944a7 en_US.qm
@@ -75,6 +74,7 @@ f86267688ca86589e0e6c91f17d244ad id_ID.qm
 b00299ee5c446593b848935a297da41c ja_JP.qm
 bb35bda299382d109cb709903799277a lt_LT.qm
 fbfaeae0000c5f97e41327cbf7842539 lv_LV.qm
+0782696dba4fcea90f76ebec58039ab8 matsya-settings_autogen/UVLADIE3JM/qrc_resources.cpp
 5d1745b0e29a5555bd52dada7035b4ce mg.qm
 fcf17d1a94e8f00549da6a7589ed0f51 ml_IN.qm
 5f743ca309c308c94d3473194cba8533 nb_NO.qm
@@ -84,7 +84,7 @@ dd1d02de0b3653fb72221840ef57ae4a pl_PL.qm
 b88f4563302131d6c7995d7816c00ea7 pt_PT.qm
 790f79b47f780234f055b3369db5b228 ro_RO.qm
 42051f09661fed3257744a577240c5f2 ru_RU.qm
-78725f9e7452da367650d6a7b115525f settingsuiadaptor.cpp
+d5b0b1a26e9246a13980da269891be6b settingsuiadaptor.cpp
 3c58995fbe2db5366a57e980a7b20d38 settingsuiadaptor.moc
 b5db0433fe66979c69c7f5163e787544 si_LK.qm
 04f8cd32a6fe3e3f6c6a157a2abfb3e0 sk_SK.qm

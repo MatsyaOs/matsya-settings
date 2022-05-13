@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_SettingsUIAdaptor_t {
     QByteArrayData data[8];
-    char stringdata0[269];
+    char stringdata0[265];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,19 +34,19 @@ static const qt_meta_stringdata_SettingsUIAdaptor_t qt_meta_stringdata_SettingsU
     {
 QT_MOC_LITERAL(0, 0, 17), // "SettingsUIAdaptor"
 QT_MOC_LITERAL(1, 18, 15), // "D-Bus Interface"
-QT_MOC_LITERAL(2, 34, 23), // "com.cutefish.SettingsUI"
-QT_MOC_LITERAL(3, 58, 19), // "D-Bus Introspection"
-QT_MOC_LITERAL(4, 78, 171), // "  <interface name=\"com.cutef..."
-QT_MOC_LITERAL(5, 235, 12), // "switchToPage"
-QT_MOC_LITERAL(6, 248, 0), // ""
-QT_MOC_LITERAL(7, 249, 4) // "name"
+QT_MOC_LITERAL(2, 34, 21), // "com.matsya.SettingsUI"
+QT_MOC_LITERAL(3, 56, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 76, 169), // "  <interface name=\"com.matsy..."
+QT_MOC_LITERAL(5, 231, 12), // "switchToPage"
+QT_MOC_LITERAL(6, 244, 0), // ""
+QT_MOC_LITERAL(7, 245, 4) // "name"
 
     },
     "SettingsUIAdaptor\0D-Bus Interface\0"
-    "com.cutefish.SettingsUI\0D-Bus Introspection\0"
-    "  <interface name=\"com.cutefish.SettingsUI\">\n    <method name=\"swi"
-    "tchToPage\">\n      <arg direction=\"in\" type=\"s\" name=\"name\"/>\n"
-    "    </method>\n  </interface>\n\0"
+    "com.matsya.SettingsUI\0D-Bus Introspection\0"
+    "  <interface name=\"com.matsya.SettingsUI\">\n    <method name=\"switc"
+    "hToPage\">\n      <arg direction=\"in\" type=\"s\" name=\"name\"/>\n  "
+    "  </method>\n  </interface>\n\0"
     "switchToPage\0\0name"
 };
 #undef QT_MOC_LITERAL

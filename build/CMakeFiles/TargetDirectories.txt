@@ -4,9 +4,9 @@
 /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/rebuild_cache.dir
 /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/edit_cache.dir
 /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/translations.dir
-/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/cutefish-settings.dir
+/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/matsya-settings.dir
 /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/KF5ModemManagerQt_QCH.dir
 /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/install/strip.dir
 /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/KF5Config_QCH.dir
 /home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/KF5NetworkManagerQt_QCH.dir
-/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/cutefish-settings_autogen.dir
+/home/tokyo/Documents/GitHub/matsya-settings/build/CMakeFiles/matsya-settings_autogen.dir

@@ -43,43 +43,43 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-settings" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-settings")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-settings"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/tokyo/Documents/GitHub/matsya-settings/build/cutefish-settings")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-settings" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-settings")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/tokyo/Documents/GitHub/matsya-settings/build/matsya-settings")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-settings")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/share/applications/cutefish-settings.desktop")
+   "/usr/share/applications/matsya-settings.desktop")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/home/tokyo/Documents/GitHub/matsya-settings/cutefish-settings.desktop")
+file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/home/tokyo/Documents/GitHub/matsya-settings/matsya-settings.desktop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/share/cutefish-settings/translations/ar_AA.qm;/usr/share/cutefish-settings/translations/az_AZ.qm;/usr/share/cutefish-settings/translations/be_BY.qm;/usr/share/cutefish-settings/translations/be_Latn.qm;/usr/share/cutefish-settings/translations/bg_BG.qm;/usr/share/cutefish-settings/translations/bs_BA.qm;/usr/share/cutefish-settings/translations/cs_CZ.qm;/usr/share/cutefish-settings/translations/da_DK.qm;/usr/share/cutefish-settings/translations/de_DE.qm;/usr/share/cutefish-settings/translations/en_US.qm;/usr/share/cutefish-settings/translations/eo_XX.qm;/usr/share/cutefish-settings/translations/es_ES.qm;/usr/share/cutefish-settings/translations/es_MX.qm;/usr/share/cutefish-settings/translations/fa_IR.qm;/usr/share/cutefish-settings/translations/fi_FI.qm;/usr/share/cutefish-settings/translations/fr_FR.qm;/usr/share/cutefish-settings/translations/he_IL.qm;/usr/share/cutefish-settings/translations/hi_IN.qm;/usr/share/cutefish-settings/translations/hu_HU.qm;/usr/share/cutefish-settings/translations/id_ID.qm;/usr/share/cutefish-settings/translations/ie.qm;/usr/share/cutefish-settings/translations/it_IT.qm;/usr/share/cutefish-settings/translations/ja_JP.qm;/usr/share/cutefish-settings/translations/lt_LT.qm;/usr/share/cutefish-settings/translations/lv_LV.qm;/usr/share/cutefish-settings/translations/mg.qm;/usr/share/cutefish-settings/translations/ml_IN.qm;/usr/share/cutefish-settings/translations/nb_NO.qm;/usr/share/cutefish-settings/translations/ne_NP.qm;/usr/share/cutefish-settings/translations/pl_PL.qm;/usr/share/cutefish-settings/translations/pt_BR.qm;/usr/share/cutefish-settings/translations/pt_PT.qm;/usr/share/cutefish-settings/translations/ro_RO.qm;/usr/share/cutefish-settings/translations/ru_RU.qm;/usr/share/cutefish-settings/translations/si_LK.qm;/usr/share/cutefish-settings/translations/sk_SK.qm;/usr/share/cutefish-settings/translations/so.qm;/usr/share/cutefish-settings/translations/sr_RS.qm;/usr/share/cutefish-settings/translations/sv_SE.qm;/usr/share/cutefish-settings/translations/sw.qm;/usr/share/cutefish-settings/translations/ta_IN.qm;/usr/share/cutefish-settings/translations/tr_TR.qm;/usr/share/cutefish-settings/translations/uk_UA.qm;/usr/share/cutefish-settings/translations/uz_UZ.qm;/usr/share/cutefish-settings/translations/vi_VN.qm;/usr/share/cutefish-settings/translations/zh_CN.qm;/usr/share/cutefish-settings/translations/zh_HK.qm;/usr/share/cutefish-settings/translations/zh_TW.qm")
+   "/usr/share/matsya-settings/translations/ar_AA.qm;/usr/share/matsya-settings/translations/az_AZ.qm;/usr/share/matsya-settings/translations/be_BY.qm;/usr/share/matsya-settings/translations/be_Latn.qm;/usr/share/matsya-settings/translations/bg_BG.qm;/usr/share/matsya-settings/translations/bs_BA.qm;/usr/share/matsya-settings/translations/cs_CZ.qm;/usr/share/matsya-settings/translations/da_DK.qm;/usr/share/matsya-settings/translations/de_DE.qm;/usr/share/matsya-settings/translations/en_US.qm;/usr/share/matsya-settings/translations/eo_XX.qm;/usr/share/matsya-settings/translations/es_ES.qm;/usr/share/matsya-settings/translations/es_MX.qm;/usr/share/matsya-settings/translations/fa_IR.qm;/usr/share/matsya-settings/translations/fi_FI.qm;/usr/share/matsya-settings/translations/fr_FR.qm;/usr/share/matsya-settings/translations/he_IL.qm;/usr/share/matsya-settings/translations/hi_IN.qm;/usr/share/matsya-settings/translations/hu_HU.qm;/usr/share/matsya-settings/translations/id_ID.qm;/usr/share/matsya-settings/translations/ie.qm;/usr/share/matsya-settings/translations/it_IT.qm;/usr/share/matsya-settings/translations/ja_JP.qm;/usr/share/matsya-settings/translations/lt_LT.qm;/usr/share/matsya-settings/translations/lv_LV.qm;/usr/share/matsya-settings/translations/mg.qm;/usr/share/matsya-settings/translations/ml_IN.qm;/usr/share/matsya-settings/translations/nb_NO.qm;/usr/share/matsya-settings/translations/ne_NP.qm;/usr/share/matsya-settings/translations/pl_PL.qm;/usr/share/matsya-settings/translations/pt_BR.qm;/usr/share/matsya-settings/translations/pt_PT.qm;/usr/share/matsya-settings/translations/ro_RO.qm;/usr/share/matsya-settings/translations/ru_RU.qm;/usr/share/matsya-settings/translations/si_LK.qm;/usr/share/matsya-settings/translations/sk_SK.qm;/usr/share/matsya-settings/translations/so.qm;/usr/share/matsya-settings/translations/sr_RS.qm;/usr/share/matsya-settings/translations/sv_SE.qm;/usr/share/matsya-settings/translations/sw.qm;/usr/share/matsya-settings/translations/ta_IN.qm;/usr/share/matsya-settings/translations/tr_TR.qm;/usr/share/matsya-settings/translations/uk_UA.qm;/usr/share/matsya-settings/translations/uz_UZ.qm;/usr/share/matsya-settings/translations/vi_VN.qm;/usr/share/matsya-settings/translations/zh_CN.qm;/usr/share/matsya-settings/translations/zh_HK.qm;/usr/share/matsya-settings/translations/zh_TW.qm")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/cutefish-settings/translations" TYPE FILE FILES
+file(INSTALL DESTINATION "/usr/share/matsya-settings/translations" TYPE FILE FILES
     "/home/tokyo/Documents/GitHub/matsya-settings/build/ar_AA.qm"
     "/home/tokyo/Documents/GitHub/matsya-settings/build/az_AZ.qm"
     "/home/tokyo/Documents/GitHub/matsya-settings/build/be_BY.qm"
