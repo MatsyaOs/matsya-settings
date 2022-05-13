@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -21,8 +21,8 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtGraphicalEffects 1.0
-import Cutefish.Settings 1.0
-import FishUI 1.0 as FishUI
+import Matsya.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
 
 import "../"
 
@@ -40,15 +40,15 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing
 
             RoundedItem {
                 RowLayout {
-                    spacing: FishUI.Units.largeSpacing * 2
+                    spacing: MatsyaUI.Units.largeSpacing * 2
 
                     Label {
                         text: qsTr("Background type")
-                        leftPadding: FishUI.Units.smallSpacing
+                        leftPadding: MatsyaUI.Units.smallSpacing
                     }
 
                     TabBar {
@@ -78,7 +78,7 @@ ItemPage {
                     property int rowCount: _view.width / itemWidth
 
                     Layout.fillWidth: true
-                    implicitHeight: Math.ceil(_view.count / rowCount) * cellHeight + FishUI.Units.largeSpacing
+                    implicitHeight: Math.ceil(_view.count / rowCount) * cellHeight + MatsyaUI.Units.largeSpacing
 
                     visible: background.backgroundType === 0
 
@@ -112,9 +112,9 @@ ItemPage {
                         // Preload background
                         Rectangle {
                             anchors.fill: parent
-                            anchors.margins: FishUI.Units.largeSpacing
-                            radius: FishUI.Theme.bigRadius + FishUI.Units.smallSpacing / 2
-                            color: FishUI.Theme.backgroundColor
+                            anchors.margins: MatsyaUI.Units.largeSpacing
+                            radius: MatsyaUI.Theme.bigRadius + MatsyaUI.Units.smallSpacing / 2
+                            color: MatsyaUI.Theme.backgroundColor
                             visible: _image.status !== Image.Ready
                         }
 
@@ -124,24 +124,24 @@ ItemPage {
                             width: 32
                             height: width
                             sourceSize: Qt.size(width, height)
-                            source: FishUI.Theme.darkMode ? "qrc:/images/dark/picture.svg"
+                            source: MatsyaUI.Theme.darkMode ? "qrc:/images/dark/picture.svg"
                                                           : "qrc:/images/light/picture.svg"
                             visible: _image.status !== Image.Ready
                         }
 
                         Rectangle {
                             anchors.fill: parent
-                            anchors.margins: FishUI.Units.smallSpacing
+                            anchors.margins: MatsyaUI.Units.smallSpacing
                             color: "transparent"
-                            radius: FishUI.Theme.bigRadius + FishUI.Units.smallSpacing / 2
+                            radius: MatsyaUI.Theme.bigRadius + MatsyaUI.Units.smallSpacing / 2
 
-                            border.color: FishUI.Theme.highlightColor
+                            border.color: MatsyaUI.Theme.highlightColor
                             border.width: _image.status == Image.Ready & isSelected ? 3 : 0
 
                             Image {
                                 id: _image
                                 anchors.fill: parent
-                                anchors.margins: FishUI.Units.smallSpacing
+                                anchors.margins: MatsyaUI.Units.smallSpacing
                                 source: "file://" + modelData
                                 sourceSize: Qt.size(width, height)
                                 fillMode: Image.PreserveAspectCrop
@@ -166,7 +166,7 @@ ItemPage {
 
                                         Rectangle {
                                             anchors.fill: parent
-                                            radius: FishUI.Theme.bigRadius
+                                            radius: MatsyaUI.Theme.bigRadius
                                         }
                                     }
                                 }
@@ -207,7 +207,7 @@ ItemPage {
 
                 Item {
                     visible: background.backgroundType === 1
-                    height: FishUI.Units.smallSpacing
+                    height: MatsyaUI.Units.smallSpacing
                 }
 
                 Loader {
@@ -225,7 +225,7 @@ ItemPage {
 //            }
 
             Item {
-                height: FishUI.Units.largeSpacing
+                height: MatsyaUI.Units.largeSpacing
             }
         }
     }
@@ -239,7 +239,7 @@ ItemPage {
 
             property int rowCount: _colorView.width / cellWidth
 
-            implicitHeight: Math.ceil(_colorView.count / _colorView.rowCount) * cellHeight + FishUI.Units.largeSpacing
+            implicitHeight: Math.ceil(_colorView.count / _colorView.rowCount) * cellHeight + MatsyaUI.Units.largeSpacing
 
             cellWidth: 50
             cellHeight: 50
@@ -264,7 +264,7 @@ ItemPage {
                 property bool checked: Qt.colorEqual(background.backgroundColor, bgColor)
                 property color currentColor: bgColor
 
-                width: _colorView.itemSize + FishUI.Units.largeSpacing
+                width: _colorView.itemSize + MatsyaUI.Units.largeSpacing
                 height: width
                 color: "transparent"
                 radius: width / 2

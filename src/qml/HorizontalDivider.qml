@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -19,11 +19,11 @@
 
 import QtQuick 2.4
 import QtQuick.Layouts 1.3
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control
-    height: FishUI.Units.largeSpacing * 2
+    height: MatsyaUI.Units.largeSpacing * 2
 
     Layout.fillWidth: true
 
@@ -31,7 +31,7 @@ Item {
         anchors.centerIn: parent
         height: 1
         width: control.width
-        color: FishUI.Theme.disabledTextColor
-        opacity: FishUI.Theme.darkMode ? 0.3 : 0.1
+        color: MatsyaUI.Theme.disabledTextColor
+        opacity: MatsyaUI.Theme.darkMode ? 0.3 : 0.1
     }
 }

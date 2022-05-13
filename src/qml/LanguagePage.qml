@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -22,8 +22,8 @@ import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtGraphicalEffects 1.0
 
-import FishUI 1.0 as FishUI
-import Cutefish.Settings 1.0 as Settings
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Settings 1.0 as Settings
 
 ItemPage {
     headerTitle: qsTr("Language")
@@ -34,12 +34,12 @@ ItemPage {
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.topMargin: FishUI.Units.smallSpacing
+        anchors.topMargin: MatsyaUI.Units.smallSpacing
 
         ListView {
             id: listView
 
-            FishUI.WheelHandler {
+            MatsyaUI.WheelHandler {
                 target: listView
             }
 
@@ -49,24 +49,24 @@ ItemPage {
             model: language.languages
             clip: true
 
-            topMargin: FishUI.Units.largeSpacing
-            leftMargin: FishUI.Units.largeSpacing * 2
-            rightMargin: FishUI.Units.largeSpacing * 2
-            bottomMargin: FishUI.Units.largeSpacing
-            spacing: FishUI.Units.largeSpacing
+            topMargin: MatsyaUI.Units.largeSpacing
+            leftMargin: MatsyaUI.Units.largeSpacing * 2
+            rightMargin: MatsyaUI.Units.largeSpacing * 2
+            bottomMargin: MatsyaUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing
 
             currentIndex: language.currentLanguage
 
             ScrollBar.vertical: ScrollBar {
-                bottomPadding: FishUI.Theme.smallRadius
+                bottomPadding: MatsyaUI.Theme.smallRadius
             }
 
             highlightFollowsCurrentItem: true
             highlightMoveDuration: 0
             highlightResizeDuration : 0
             highlight: Rectangle {
-                color: FishUI.Theme.highlightColor
-                radius: FishUI.Theme.smallRadius
+                color: MatsyaUI.Theme.highlightColor
+                radius: MatsyaUI.Theme.smallRadius
             }
 
             delegate: MouseArea {
@@ -84,18 +84,18 @@ ItemPage {
 
                 Rectangle {
                     anchors.fill: parent
-                    color: isSelected ? "transparent" : item.containsMouse ? FishUI.Theme.disabledTextColor : "transparent"
+                    color: isSelected ? "transparent" : item.containsMouse ? MatsyaUI.Theme.disabledTextColor : "transparent"
                     opacity: isSelected ? 1 : 0.1
-                    radius: FishUI.Theme.smallRadius
+                    radius: MatsyaUI.Theme.smallRadius
                 }
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: FishUI.Units.smallSpacing
-                    anchors.rightMargin: FishUI.Units.largeSpacing
+                    anchors.leftMargin: MatsyaUI.Units.smallSpacing
+                    anchors.rightMargin: MatsyaUI.Units.largeSpacing
 
                     Label {
-                        color: isSelected ? FishUI.Theme.highlightedTextColor : FishUI.Theme.textColor
+                        color: isSelected ? MatsyaUI.Theme.highlightedTextColor : MatsyaUI.Theme.textColor
                         text: modelData
                         Layout.alignment: Qt.AlignVCenter
                     }

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,7 +20,7 @@
 import QtQuick 2.4
 import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Page {
     id: page
@@ -36,13 +36,13 @@ Page {
 
         Label {
             anchors.left: parent.left
-            leftPadding: FishUI.Units.largeSpacing * 3
-            rightPadding: Qt.application.layoutDirection === Qt.RightToLeft ? FishUI.Units.largeSpacing * 3 : 0
-            topPadding: FishUI.Units.largeSpacing
+            leftPadding: MatsyaUI.Units.largeSpacing * 3
+            rightPadding: Qt.application.layoutDirection === Qt.RightToLeft ? MatsyaUI.Units.largeSpacing * 3 : 0
+            topPadding: MatsyaUI.Units.largeSpacing
             bottomPadding: 0
             font.pointSize: 12
             text: page.headerTitle
-            color: rootWindow.active ? FishUI.Theme.textColor : FishUI.Theme.disabledTextColor
+            color: rootWindow.active ? MatsyaUI.Theme.textColor : MatsyaUI.Theme.disabledTextColor
         }
     }
 }

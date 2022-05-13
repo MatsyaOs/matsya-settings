@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -22,18 +22,18 @@ import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
 
-import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.NetworkManagement 1.0 as NM
 
 Item {
     id: control
 
     Rectangle {
         anchors.fill: parent
-        radius: FishUI.Theme.smallRadius
-        color: mouseArea.containsMouse ? Qt.rgba(FishUI.Theme.textColor.r,
-                                                 FishUI.Theme.textColor.g,
-                                                 FishUI.Theme.textColor.b,
+        radius: MatsyaUI.Theme.smallRadius
+        color: mouseArea.containsMouse ? Qt.rgba(MatsyaUI.Theme.textColor.r,
+                                                 MatsyaUI.Theme.textColor.g,
+                                                 MatsyaUI.Theme.textColor.b,
                                                  0.1) : "transparent"
 
         Behavior on color {
@@ -59,14 +59,14 @@ Item {
 
     RowLayout {
         anchors.fill: parent
-        anchors.margins: FishUI.Units.smallSpacing
-        spacing: FishUI.Units.largeSpacing
+        anchors.margins: MatsyaUI.Units.smallSpacing
+        spacing: MatsyaUI.Units.largeSpacing
 
         Image {
             width: 22
             height: width
             sourceSize: Qt.size(width, height)
-            source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark/" : "light/") + "network-wired.svg"
+            source: "qrc:/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "network-wired.svg"
         }
 
         Label {
@@ -85,7 +85,7 @@ Item {
             ColorOverlay {
                 anchors.fill: parent
                 source: parent
-                color: FishUI.Theme.highlightColor
+                color: MatsyaUI.Theme.highlightColor
                 opacity: 1
                 visible: true
             }

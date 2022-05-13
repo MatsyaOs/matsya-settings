@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     Reion Wong <reionwong@gmail.com>
  *
@@ -22,8 +22,8 @@ import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
 
-import Cutefish.Settings 1.0
-import FishUI 1.0 as FishUI
+import Matsya.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
 import "../"
 
 ItemPage {
@@ -71,26 +71,26 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.largeSpacing * 2
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             // Font
             RoundedItem {
 //                Label {
 //                    text: qsTr("Font")
-//                    color: FishUI.Theme.disabledTextColor
-//                    bottomPadding: FishUI.Units.smallSpacing
+//                    color: MatsyaUI.Theme.disabledTextColor
+//                    bottomPadding: MatsyaUI.Units.smallSpacing
 //                }
 
                 GridLayout {
                     rows: 3
                     columns: 2
 
-                    columnSpacing: FishUI.Units.largeSpacing * 1.5
-                    rowSpacing: FishUI.Units.largeSpacing * 1.5
+                    columnSpacing: MatsyaUI.Units.largeSpacing * 1.5
+                    rowSpacing: MatsyaUI.Units.largeSpacing * 1.5
 
                     Label {
                         text: qsTr("General Font")
-                        bottomPadding: FishUI.Units.smallSpacing
+                        bottomPadding: MatsyaUI.Units.smallSpacing
                     }
 
                     ComboBox {
@@ -100,14 +100,14 @@ ItemPage {
                         Layout.fillWidth: true
                         topInset: 0
                         bottomInset: 0
-                        leftPadding: FishUI.Units.largeSpacing
-                        rightPadding: FishUI.Units.largeSpacing
+                        leftPadding: MatsyaUI.Units.largeSpacing
+                        rightPadding: MatsyaUI.Units.largeSpacing
                         onActivated: appearance.setGenericFontFamily(currentText)
                     }
 
                     Label {
                         text: qsTr("Fixed Font")
-                        bottomPadding: FishUI.Units.smallSpacing
+                        bottomPadding: MatsyaUI.Units.smallSpacing
                     }
 
                     ComboBox {
@@ -117,14 +117,14 @@ ItemPage {
                         Layout.fillWidth: true
                         topInset: 0
                         bottomInset: 0
-                        leftPadding: FishUI.Units.largeSpacing
-                        rightPadding: FishUI.Units.largeSpacing
+                        leftPadding: MatsyaUI.Units.largeSpacing
+                        rightPadding: MatsyaUI.Units.largeSpacing
                         onActivated: appearance.setFixedFontFamily(currentText)
                     }
 
                     Label {
                         text: qsTr("Font Size")
-                        bottomPadding: FishUI.Units.smallSpacing
+                        bottomPadding: MatsyaUI.Units.smallSpacing
                     }
 
                     TabBar {
@@ -185,7 +185,7 @@ ItemPage {
 
                     Label {
                         text: qsTr("Hinting")
-                        bottomPadding: FishUI.Units.smallSpacing
+                        bottomPadding: MatsyaUI.Units.smallSpacing
                     }
 
                     ComboBox {
@@ -198,7 +198,7 @@ ItemPage {
 
                     Label {
                         text: qsTr("Anti-Aliasing")
-                        bottomPadding: FishUI.Units.smallSpacing
+                        bottomPadding: MatsyaUI.Units.smallSpacing
                     }
 
                     Switch {

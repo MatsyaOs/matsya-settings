@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,7 +20,7 @@
 import QtQuick 2.4
 import QtQuick.Controls 2.4
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control

@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
- * Author:     Reion Wong <reion@cutefishos.com>
+ * Author:     Reion Wong <reion@matsyaos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,8 +23,8 @@ import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Dialogs 1.2
 
-import FishUI 1.0 as FishUI
-import Cutefish.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Settings 1.0
 import "../"
 
 ItemPage {
@@ -57,11 +57,11 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.largeSpacing * 2
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             RoundedItem {
                 id: mainItem
-                spacing: FishUI.Units.largeSpacing
+                spacing: MatsyaUI.Units.largeSpacing
 
                 RadioButton {
                     id: noProxyRadioButton
@@ -102,7 +102,7 @@ ItemPage {
 
                 RowLayout {
                     id: autoScriptProxyLayout
-                    spacing: FishUI.Units.largeSpacing
+                    spacing: MatsyaUI.Units.largeSpacing
                     visible: autoScriptProxyRadioButton.checked
 
                     TextField {
@@ -127,8 +127,8 @@ ItemPage {
                 GridLayout {
                     visible: manualProxyRadioButton.checked
                     columns: 4
-                    columnSpacing: FishUI.Units.largeSpacing
-                    rowSpacing: FishUI.Units.largeSpacing
+                    columnSpacing: MatsyaUI.Units.largeSpacing
+                    rowSpacing: MatsyaUI.Units.largeSpacing
 
                     Label {
                         text: qsTr("HTTP Proxy")
@@ -282,7 +282,7 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.smallSpacing
+                height: MatsyaUI.Units.smallSpacing
             }
         }
     }

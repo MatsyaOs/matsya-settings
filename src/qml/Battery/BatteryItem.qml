@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -21,7 +21,7 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtGraphicalEffects 1.0
 import QtQuick.Particles 2.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control
@@ -34,9 +34,9 @@ Item {
     Rectangle {
         id: bgRect
         anchors.fill: parent
-        color: Qt.rgba(FishUI.Theme.highlightColor.r,
-                       FishUI.Theme.highlightColor.g,
-                       FishUI.Theme.highlightColor.b, 0.4)
+        color: Qt.rgba(MatsyaUI.Theme.highlightColor.r,
+                       MatsyaUI.Theme.highlightColor.g,
+                       MatsyaUI.Theme.highlightColor.b, 0.4)
         radius: control.radius
 
         layer.enabled: true
@@ -58,17 +58,17 @@ Item {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: control.width * (control.value / 100)
-            color: FishUI.Theme.highlightColor
+            color: MatsyaUI.Theme.highlightColor
             opacity: 1
 
             gradient: Gradient {
                 orientation: Gradient.Horizontal
-                GradientStop { position: 0.0; color: Qt.rgba(FishUI.Theme.highlightColor.r,
-                                                             FishUI.Theme.highlightColor.g,
-                                                             FishUI.Theme.highlightColor.b, 1) }
-                GradientStop { position: 1.0; color: Qt.rgba(FishUI.Theme.highlightColor.r,
-                                                             FishUI.Theme.highlightColor.g,
-                                                             FishUI.Theme.highlightColor.b, 0.3) }
+                GradientStop { position: 0.0; color: Qt.rgba(MatsyaUI.Theme.highlightColor.r,
+                                                             MatsyaUI.Theme.highlightColor.g,
+                                                             MatsyaUI.Theme.highlightColor.b, 1) }
+                GradientStop { position: 1.0; color: Qt.rgba(MatsyaUI.Theme.highlightColor.r,
+                                                             MatsyaUI.Theme.highlightColor.g,
+                                                             MatsyaUI.Theme.highlightColor.b, 0.3) }
             }
 
             Behavior on width {

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -22,12 +22,12 @@ import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import "../"
 
-import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.NetworkManagement 1.0 as NM
 
 ColumnLayout {
     id: _contentLayout
-    spacing: FishUI.Units.largeSpacing
+    spacing: MatsyaUI.Units.largeSpacing
 
     ConnectDialog {
         id: connectDialog
@@ -44,12 +44,12 @@ ColumnLayout {
     }
 
     RowLayout {
-        spacing: FishUI.Units.smallSpacing * 1.5
+        spacing: MatsyaUI.Units.smallSpacing * 1.5
 
         Label {
             id: wlanLabel
             text: qsTr("WLAN")
-            color: FishUI.Theme.disabledTextColor
+            color: MatsyaUI.Theme.disabledTextColor
         }
 
         Item {

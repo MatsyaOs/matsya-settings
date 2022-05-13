@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -18,8 +18,8 @@
  */
 
 import QtQuick 2.12
-import FishUI 1.0 as FishUI
-import Cutefish.Screen 1.0 as CS
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Screen 1.0 as CS
 import "../"
 
 IconCheckBox {

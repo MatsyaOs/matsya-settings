@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,8 +20,8 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
-import Cutefish.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Settings 1.0
 import "../"
 
 ItemPage {
@@ -46,10 +46,10 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.largeSpacing * 2
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             RoundedItem {
-                spacing: FishUI.Units.largeSpacing * 1.5
+                spacing: MatsyaUI.Units.largeSpacing * 1.5
 
                 RowLayout {
                     Label {
@@ -96,8 +96,8 @@ ItemPage {
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: FishUI.Units.largeSpacing * 1.5
-                    anchors.rightMargin: FishUI.Units.largeSpacing * 1.5
+                    anchors.leftMargin: MatsyaUI.Units.largeSpacing * 1.5
+                    anchors.rightMargin: MatsyaUI.Units.largeSpacing * 1.5
 
                     Label {
                         text: qsTr("Time Zone")

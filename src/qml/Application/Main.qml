@@ -1,5 +1,5 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
+Matsya/*
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -22,7 +22,7 @@ import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
 
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 import "../"
 
 ItemPage {
@@ -36,17 +36,17 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.smallSpacing
+            spacing: MatsyaUI.Units.smallSpacing
 
             Label {
                 text: qsTr("Default application")
-                leftPadding: FishUI.Units.largeSpacing
+                leftPadding: MatsyaUI.Units.largeSpacing
             }
 
             RoundedItem {
                 GridLayout {
                     columns: 2
-                    columnSpacing: FishUI.Units.largeSpacing * 2
+                    columnSpacing: MatsyaUI.Units.largeSpacing * 2
 
                     Label {
                         text: qsTr("Web browser")

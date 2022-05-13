@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,8 +20,8 @@
 import QtQuick 2.4
 import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
-import Cutefish.Settings 1.0
-import FishUI 1.0 as FishUI
+import Matsya.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
 import "../"
 
 ItemPage {
@@ -38,16 +38,16 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.largeSpacing * 2
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             RoundedItem {
                 Label {
                     text: qsTr("Style")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 RowLayout {
-                    spacing: FishUI.Units.largeSpacing * 2
+                    spacing: MatsyaUI.Units.largeSpacing * 2
 
                     IconCheckBox {
                         source: "qrc:/images/dock_bottom.svg"
@@ -69,11 +69,11 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Position on screen")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 RowLayout {
-                    spacing: FishUI.Units.largeSpacing * 2
+                    spacing: MatsyaUI.Units.largeSpacing * 2
 
                     IconCheckBox {
                         source: "qrc:/images/dock_left.svg"
@@ -102,13 +102,13 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Size")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 TabBar {
                     id: dockSizeTabbar
                     Layout.fillWidth: true
-                    bottomPadding: FishUI.Units.smallSpacing
+                    bottomPadding: MatsyaUI.Units.smallSpacing
 
                     TabButton {
                         text: qsTr("Small")
@@ -168,7 +168,7 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Display mode")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 TabBar {

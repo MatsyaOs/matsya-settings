@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,12 +20,12 @@
 import QtQuick 2.4
 import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control
 
-    height: mainLayout.implicitHeight + FishUI.Theme.smallRadius * 2
+    height: mainLayout.implicitHeight + MatsyaUI.Theme.smallRadius * 2
 
     property alias key: keyLabel.text
     property alias value: valueLabel.text
@@ -36,7 +36,7 @@ Item {
         id: background
         anchors.fill: parent
         color: "transparent"
-        radius: FishUI.Theme.smallRadius
+        radius: MatsyaUI.Theme.smallRadius
     }
 
     RowLayout {
@@ -45,7 +45,7 @@ Item {
 
         Label {
             id: keyLabel
-            color: FishUI.Theme.textColor
+            color: MatsyaUI.Theme.textColor
         }
 
         Item {
@@ -54,7 +54,7 @@ Item {
 
         Label {
             id: valueLabel
-            color: FishUI.Theme.disabledTextColor
+            color: MatsyaUI.Theme.disabledTextColor
         }
     }
 }

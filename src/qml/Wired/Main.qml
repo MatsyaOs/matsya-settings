@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
- * Author:     rekols <aj@cutefishos.com>
+ * Author:     rekols <aj@matsyaos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,8 +22,8 @@ import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
 
-import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.NetworkManagement 1.0 as NM
 
 import "../"
 
@@ -65,20 +65,20 @@ ItemPage {
         ColumnLayout {
             id: mainLayout
             anchors.fill: parent
-            anchors.bottomMargin: FishUI.Units.largeSpacing
-            spacing: FishUI.Units.largeSpacing * 2
+            anchors.bottomMargin: MatsyaUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             // Wired connection
             RoundedItem {
                 visible: enabledConnections.wwanHwEnabled
-                spacing: FishUI.Units.largeSpacing
+                spacing: MatsyaUI.Units.largeSpacing
 
                 RowLayout {
-                    spacing: FishUI.Units.largeSpacing
+                    spacing: MatsyaUI.Units.largeSpacing
 
                     Label {
                         text: qsTr("Ethernet")
-                        color: FishUI.Theme.disabledTextColor
+                        color: MatsyaUI.Theme.disabledTextColor
                         Layout.fillWidth: true
                     }
 
@@ -125,7 +125,7 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.largeSpacing
+                height: MatsyaUI.Units.largeSpacing
             }
         }
     }

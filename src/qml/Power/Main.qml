@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -22,8 +22,8 @@ import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
 
-import Cutefish.Settings 1.0
-import FishUI 1.0 as FishUI
+import Matsya.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
 import "../"
 
 ItemPage {
@@ -62,16 +62,16 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing
 
             RoundedItem {
                 Label {
                     text: qsTr("Mode")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 RowLayout {
-                    spacing: FishUI.Units.largeSpacing * 2
+                    spacing: MatsyaUI.Units.largeSpacing * 2
 
                     IconCheckBox {
                         source: "qrc:/images/powersave.svg"
@@ -96,21 +96,21 @@ ItemPage {
             }
 
             Label {
-                color: FishUI.Theme.disabledTextColor
-                leftPadding: FishUI.Units.largeSpacing * 2
-                rightPadding: FishUI.Units.largeSpacing
+                color: MatsyaUI.Theme.disabledTextColor
+                leftPadding: MatsyaUI.Units.largeSpacing * 2
+                rightPadding: MatsyaUI.Units.largeSpacing
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("Performance mode: CPU and GPU frequencies will be increased, while power consumption and heat generation will be increased.")
             }
 
             RoundedItem {
-                Layout.topMargin: FishUI.Units.largeSpacing
+                Layout.topMargin: MatsyaUI.Units.largeSpacing
 
                 GridLayout {
                     columns: 2
-                    rowSpacing: FishUI.Units.largeSpacing * 2
-                    Layout.bottomMargin: FishUI.Units.largeSpacing
+                    rowSpacing: MatsyaUI.Units.largeSpacing * 2
+                    Layout.bottomMargin: MatsyaUI.Units.largeSpacing
 
                     Label {
                         text: qsTr("Turn off screen")
@@ -184,7 +184,7 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.largeSpacing * 2
+                height: MatsyaUI.Units.largeSpacing * 2
             }
         }
     }

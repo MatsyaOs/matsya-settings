@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -23,14 +23,14 @@ import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
 import QtQuick.Window 2.3
 
-import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.NetworkManagement 1.0 as NM
 import "../"
 
 Item {
     id: control
 
-    height: _itemLayout.implicitHeight + FishUI.Units.largeSpacing
+    height: _itemLayout.implicitHeight + MatsyaUI.Units.largeSpacing
 
     property bool passwordIsStatic: (model.securityType === NM.Enums.StaticWep || model.securityType === NM.Enums.WpaPsk ||
                                      model.securityType === NM.Enums.Wpa2Psk || model.securityType === NM.Enums.SAE)
@@ -41,19 +41,19 @@ Item {
         anchors.fill: parent
         anchors.leftMargin: 0
         anchors.rightMargin: 0
-        anchors.topMargin: FishUI.Units.smallSpacing
-        anchors.bottomMargin: FishUI.Units.smallSpacing
+        anchors.topMargin: MatsyaUI.Units.smallSpacing
+        anchors.bottomMargin: MatsyaUI.Units.smallSpacing
         spacing: 0
 
         // 顶部项
         Item {
             Layout.fillWidth: true
-            Layout.preferredHeight: _topItem.implicitHeight + FishUI.Units.largeSpacing
+            Layout.preferredHeight: _topItem.implicitHeight + MatsyaUI.Units.largeSpacing
 
             Rectangle {
                 anchors.fill: parent
-                radius: FishUI.Theme.smallRadius
-                color: FishUI.Theme.textColor
+                radius: MatsyaUI.Theme.smallRadius
+                color: MatsyaUI.Theme.textColor
                 opacity: mouseArea.pressed ? 0.15 :  mouseArea.containsMouse ? 0.1 : 0.0
             }
 
@@ -108,15 +108,15 @@ Item {
             RowLayout {
                 id: _topItem
                 anchors.fill: parent
-                anchors.leftMargin: FishUI.Units.smallSpacing
-                anchors.rightMargin: FishUI.Units.smallSpacing
-                spacing: FishUI.Units.largeSpacing
+                anchors.leftMargin: MatsyaUI.Units.smallSpacing
+                anchors.rightMargin: MatsyaUI.Units.smallSpacing
+                spacing: MatsyaUI.Units.largeSpacing
 
                 Image {
                     width: 22
                     height: width
                     sourceSize: Qt.size(width, height)
-                    source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark/" : "light/") + model.connectionIcon + ".svg"
+                    source: "qrc:/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + model.connectionIcon + ".svg"
                     smooth: false
                 }
 
@@ -127,7 +127,7 @@ Item {
                     Layout.fillWidth: true
                 }
 
-                FishUI.BusyIndicator {
+                MatsyaUI.BusyIndicator {
                     id: busyIndicator
                     width: 22
                     height: width
@@ -147,7 +147,7 @@ Item {
                     ColorOverlay {
                         anchors.fill: parent
                         source: parent
-                        color: FishUI.Theme.highlightColor
+                        color: MatsyaUI.Theme.highlightColor
                         opacity: 1
                         visible: true
                     }
@@ -158,7 +158,7 @@ Item {
                     width: 22
                     height: width
                     sourceSize: Qt.size(width, height)
-                    source: FishUI.Theme.darkMode ? "qrc:/images/dark/locked.svg" : "qrc:/images/light/locked.svg"
+                    source: MatsyaUI.Theme.darkMode ? "qrc:/images/dark/locked.svg" : "qrc:/images/light/locked.svg"
                     visible: (model.securityType === -1 | model.securityType === 0) ? false : true
                     smooth: false
                 }
@@ -191,13 +191,13 @@ Item {
             }
 
             Item {
-                height: FishUI.Units.largeSpacing * 2
+                height: MatsyaUI.Units.largeSpacing * 2
             }
 
             // 密码对话
             RowLayout {
                 visible: predictableWirelessPassword
-                spacing: FishUI.Units.largeSpacing
+                spacing: MatsyaUI.Units.largeSpacing
 
                 Label {
                     text: qsTr("Password")
@@ -262,7 +262,7 @@ Item {
             }
 
             Item {
-                height: FishUI.Units.smallSpacing
+                height: MatsyaUI.Units.smallSpacing
             }
 
             HorizontalDivider {}

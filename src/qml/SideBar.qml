@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -21,9 +21,9 @@ import QtQuick 2.4
 import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
-import Cutefish.Settings 1.0
-import Cutefish.NetworkManagement 1.0 as NM
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Settings 1.0
+import Matsya.NetworkManagement 1.0 as NM
 
 Item {
     implicitWidth: 230
@@ -36,8 +36,8 @@ Item {
 
     Rectangle {
         anchors.fill: parent
-        color: FishUI.Theme.darkMode ? Qt.lighter(FishUI.Theme.backgroundColor, 1.5)
-                                     : Qt.darker(FishUI.Theme.backgroundColor, 1.05)
+        color: MatsyaUI.Theme.darkMode ? Qt.lighter(MatsyaUI.Theme.backgroundColor, 1.5)
+                                     : Qt.darker(MatsyaUI.Theme.backgroundColor, 1.05)
         opacity: rootWindow.compositing ? 0.7 : 1.0
 
         Behavior on color {
@@ -266,11 +266,11 @@ Item {
 
         Label {
             text: rootWindow.title
-            color: rootWindow.active ? FishUI.Theme.textColor : FishUI.Theme.disabledTextColor
+            color: rootWindow.active ? MatsyaUI.Theme.textColor : MatsyaUI.Theme.disabledTextColor
             Layout.preferredHeight: rootWindow.header.height
-            leftPadding: FishUI.Units.largeSpacing + FishUI.Units.smallSpacing
-            rightPadding: FishUI.Units.largeSpacing + FishUI.Units.smallSpacing
-            topPadding: FishUI.Units.smallSpacing
+            leftPadding: MatsyaUI.Units.largeSpacing + MatsyaUI.Units.smallSpacing
+            rightPadding: MatsyaUI.Units.largeSpacing + MatsyaUI.Units.smallSpacing
+            topPadding: MatsyaUI.Units.smallSpacing
             bottomPadding: 0
             font.pointSize: 13
         }
@@ -282,11 +282,11 @@ Item {
             clip: true
             model: listModel
 
-            spacing: FishUI.Units.smallSpacing
-            leftMargin: FishUI.Units.largeSpacing
-            rightMargin: FishUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.smallSpacing
+            leftMargin: MatsyaUI.Units.largeSpacing
+            rightMargin: MatsyaUI.Units.largeSpacing
             topMargin: 0
-            bottomMargin: FishUI.Units.largeSpacing
+            bottomMargin: MatsyaUI.Units.largeSpacing
 
             ScrollBar.vertical: ScrollBar {}
 
@@ -294,32 +294,32 @@ Item {
             highlightMoveDuration: 0
             highlightResizeDuration : 0
             highlight: Rectangle {
-                radius: FishUI.Theme.mediumRadius
-                color: Qt.rgba(FishUI.Theme.textColor.r,
-                               FishUI.Theme.textColor.g,
-                               FishUI.Theme.textColor.b, 0.05)
+                radius: MatsyaUI.Theme.mediumRadius
+                color: Qt.rgba(MatsyaUI.Theme.textColor.r,
+                               MatsyaUI.Theme.textColor.g,
+                               MatsyaUI.Theme.textColor.b, 0.05)
                 smooth: true
             }
 
             section.property: "category"
             section.delegate: Item {
                 width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-                height: FishUI.Units.fontMetrics.height + FishUI.Units.largeSpacing + FishUI.Units.smallSpacing
+                height: MatsyaUI.Units.fontMetrics.height + MatsyaUI.Units.largeSpacing + MatsyaUI.Units.smallSpacing
 
                 Text {
                     anchors.left: parent.left
                     anchors.top: parent.top
-                    anchors.leftMargin: Qt.application.layoutDirection === Qt.RightToLeft ? 0 : FishUI.Units.smallSpacing
-                    anchors.rightMargin: FishUI.Units.smallSpacing
-                    anchors.topMargin: FishUI.Units.largeSpacing
-                    anchors.bottomMargin: FishUI.Units.smallSpacing
-                    color: FishUI.Theme.disabledTextColor
+                    anchors.leftMargin: Qt.application.layoutDirection === Qt.RightToLeft ? 0 : MatsyaUI.Units.smallSpacing
+                    anchors.rightMargin: MatsyaUI.Units.smallSpacing
+                    anchors.topMargin: MatsyaUI.Units.largeSpacing
+                    anchors.bottomMargin: MatsyaUI.Units.smallSpacing
+                    color: MatsyaUI.Theme.disabledTextColor
                     font.pointSize: 8
                     text: section
                 }
             }
 
-            FishUI.WheelHandler {
+            MatsyaUI.WheelHandler {
                 target: listView
             }
 
@@ -341,13 +341,13 @@ Item {
                         onClicked: listView.currentIndex = index
                     }
 
-                    radius: FishUI.Theme.mediumRadius
-                    color: mouseArea.pressed ? Qt.rgba(FishUI.Theme.textColor.r,
-                                                       FishUI.Theme.textColor.g,
-                                                       FishUI.Theme.textColor.b, FishUI.Theme.darkMode ? 0.05 : 0.1) :
-                           mouseArea.containsMouse || isCurrent ? Qt.rgba(FishUI.Theme.textColor.r,
-                                                                          FishUI.Theme.textColor.g,
-                                                                          FishUI.Theme.textColor.b, FishUI.Theme.darkMode ? 0.1 : 0.05) :
+                    radius: MatsyaUI.Theme.mediumRadius
+                    color: mouseArea.pressed ? Qt.rgba(MatsyaUI.Theme.textColor.r,
+                                                       MatsyaUI.Theme.textColor.g,
+                                                       MatsyaUI.Theme.textColor.b, MatsyaUI.Theme.darkMode ? 0.05 : 0.1) :
+                           mouseArea.containsMouse || isCurrent ? Qt.rgba(MatsyaUI.Theme.textColor.r,
+                                                                          MatsyaUI.Theme.textColor.g,
+                                                                          MatsyaUI.Theme.textColor.b, MatsyaUI.Theme.darkMode ? 0.1 : 0.05) :
                                                                   "transparent"
 
                     smooth: true
@@ -355,8 +355,8 @@ Item {
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: FishUI.Units.smallSpacing
-                    spacing: FishUI.Units.smallSpacing
+                    anchors.leftMargin: MatsyaUI.Units.smallSpacing
+                    spacing: MatsyaUI.Units.smallSpacing
 
                     Rectangle {
                         id: iconRect
@@ -387,7 +387,7 @@ Item {
                     Label {
                         id: itemTitle
                         text: model.title
-                        color: FishUI.Theme.darkMode ? FishUI.Theme.textColor : "#363636"
+                        color: MatsyaUI.Theme.darkMode ? MatsyaUI.Theme.textColor : "#363636"
                         font.pointSize: 8
                     }
 

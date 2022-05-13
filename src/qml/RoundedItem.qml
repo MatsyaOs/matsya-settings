@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -19,7 +19,7 @@
 
 import QtQuick 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Rectangle {
     Layout.fillWidth: true
@@ -28,8 +28,8 @@ Rectangle {
     property alias spacing: _mainLayout.spacing
     property alias layout: _mainLayout
 
-    color: FishUI.Theme.secondBackgroundColor
-    radius: FishUI.Theme.mediumRadius
+    color: MatsyaUI.Theme.secondBackgroundColor
+    radius: MatsyaUI.Theme.mediumRadius
 
     Behavior on color {
         ColorAnimation {
@@ -45,10 +45,10 @@ Rectangle {
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.leftMargin: FishUI.Units.largeSpacing * 1.5
-        anchors.rightMargin: FishUI.Units.largeSpacing * 1.5
-        anchors.topMargin: FishUI.Units.largeSpacing
-        anchors.bottomMargin: FishUI.Units.largeSpacing
-        spacing: FishUI.Units.largeSpacing
+        anchors.leftMargin: MatsyaUI.Units.largeSpacing * 1.5
+        anchors.rightMargin: MatsyaUI.Units.largeSpacing * 1.5
+        anchors.topMargin: MatsyaUI.Units.largeSpacing
+        anchors.bottomMargin: MatsyaUI.Units.largeSpacing
+        spacing: MatsyaUI.Units.largeSpacing
     }
 }

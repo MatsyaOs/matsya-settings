@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
- * Author:     Kate Leet <kate@cutefishos.com>
+ * Author:     Kate Leet <kate@zos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,10 +20,10 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.NetworkManagement 1.0 as NM
 
-FishUI.Window {
+MatsyaUI.Window {
     id: control
 
     width: contentWidth
@@ -33,14 +33,14 @@ FishUI.Window {
     maximumWidth: contentWidth
     maximumHeight: contentHeight
 
-    property int contentWidth: _mainLayout.implicitWidth + header.height + FishUI.Units.largeSpacing * 2
-    property int contentHeight: _mainLayout.implicitHeight + header.height + FishUI.Units.largeSpacing * 2
+    property int contentWidth: _mainLayout.implicitWidth + header.height + MatsyaUI.Units.largeSpacing * 2
+    property int contentHeight: _mainLayout.implicitHeight + header.height + MatsyaUI.Units.largeSpacing * 2
 
     visible: false
     minimizeButtonVisible: false
     modality: Qt.WindowModal
 
-    background.color: FishUI.Theme.secondBackgroundColor
+    background.color: MatsyaUI.Theme.secondBackgroundColor
     flags: Qt.Dialog | Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint
 
     signal connect(var devicePath, var specificPath, var password)
@@ -67,13 +67,13 @@ FishUI.Window {
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.margins: FishUI.Units.largeSpacing
+        anchors.margins: MatsyaUI.Units.largeSpacing
         anchors.topMargin: 0
-        spacing: FishUI.Units.largeSpacing
+        spacing: MatsyaUI.Units.largeSpacing
 
         Label {
             text: qsTr("Enter the password for %1").arg(control.name)
-            color: FishUI.Theme.disabledTextColor
+            color: MatsyaUI.Theme.disabledTextColor
             wrapMode: Text.WordWrap
         }
 
@@ -104,7 +104,7 @@ FishUI.Window {
         }
 
         RowLayout {
-            spacing: FishUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

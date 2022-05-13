@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     Reion Wong <reionwong@gmail.com>
  *
@@ -79,7 +79,7 @@ About::About(QObject *parent)
 {
 }
 
-bool About::isCutefishOS()
+bool About::isMatsyaOS()
 {
     if (!QFile::exists("/etc/matsyaos"))
         return false;
@@ -181,7 +181,7 @@ QString About::cpuInfo()
 
 void About::openUpdator()
 {
-    QProcess::startDetached("cutefish-updator", QStringList());
+    QProcess::startDetached("matsya-updator", QStringList());
 }
 
 qlonglong About::calculateTotalRam() const

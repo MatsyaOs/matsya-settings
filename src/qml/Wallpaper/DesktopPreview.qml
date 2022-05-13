@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,7 +20,7 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 import QtGraphicalEffects 1.0
 
 Item {
@@ -69,7 +69,7 @@ Item {
 
         radius: height * 0.2
         opacity: 0.5
-        color: FishUI.Theme.backgroundColor
+        color: MatsyaUI.Theme.backgroundColor
     }
 
     Rectangle {
@@ -86,7 +86,7 @@ Item {
 
         radius: height * 0.2
         opacity: 0.5
-        color: FishUI.Theme.backgroundColor
+        color: MatsyaUI.Theme.backgroundColor
     }
 
     Rectangle {
@@ -101,7 +101,7 @@ Item {
 
         height: 38
         radius: height * 0.3
-        color: FishUI.Theme.backgroundColor
+        color: MatsyaUI.Theme.backgroundColor
         opacity: 0.7
     }
 
@@ -113,7 +113,7 @@ Item {
 
             Rectangle {
                 anchors.fill: parent
-                radius: FishUI.Theme.bigRadius
+                radius: MatsyaUI.Theme.bigRadius
             }
         }
     }

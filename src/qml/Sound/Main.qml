@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,9 +20,9 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
-import Cutefish.Settings 1.0
-import Cutefish.Audio 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Settings 1.0
+import Matsya.Audio 1.0
 import "../"
 
 ItemPage {
@@ -82,9 +82,9 @@ ItemPage {
 
             Label {
                 text: qsTr("Output Devices")
-                leftPadding: FishUI.Units.largeSpacing
-                bottomPadding: FishUI.Units.smallSpacing
-                color: FishUI.Theme.disabledTextColor
+                leftPadding: MatsyaUI.Units.largeSpacing
+                bottomPadding: MatsyaUI.Units.smallSpacing
+                color: MatsyaUI.Theme.disabledTextColor
                 visible: sinks.count >= 1
             }
 
@@ -93,7 +93,7 @@ ItemPage {
                 id: sinks
                 Layout.fillWidth: true
                 interactive: false
-                spacing: FishUI.Units.largeSpacing
+                spacing: MatsyaUI.Units.largeSpacing
 
                 Layout.preferredHeight: {
                     var totalHeight = 0
@@ -107,35 +107,35 @@ ItemPage {
 
                 delegate: Item {
                     width: ListView.view.width
-                    height: _itemLayout.implicitHeight + FishUI.Units.largeSpacing * 2
+                    height: _itemLayout.implicitHeight + MatsyaUI.Units.largeSpacing * 2
 
                     readonly property var currentPort: Ports[ActivePortIndex]
 
                     Rectangle {
                         anchors.fill: parent
-                        color: FishUI.Theme.secondBackgroundColor
-                        radius: FishUI.Theme.bigRadius
+                        color: MatsyaUI.Theme.secondBackgroundColor
+                        radius: MatsyaUI.Theme.bigRadius
                     }
 
                     ColumnLayout {
                         id: _itemLayout
                         anchors.fill: parent
-                        anchors.margins: FishUI.Units.largeSpacing
-                        spacing: FishUI.Units.largeSpacing
+                        anchors.margins: MatsyaUI.Units.largeSpacing
+                        spacing: MatsyaUI.Units.largeSpacing
 
                         Label {
                             text: !currentPort ? Description : currentPort.description
                         }
 
                         RowLayout {
-                            spacing: FishUI.Units.largeSpacing
+                            spacing: MatsyaUI.Units.largeSpacing
 
                             Image {
                                 Layout.leftMargin: 2
                                 height: 16
                                 width: height
                                 sourceSize: Qt.size(width, height)
-                                source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark" : "light") + "/" + audioIcon(slider.value / slider.to * 100) + ".svg"
+                                source: "qrc:/images/" + (MatsyaUI.Theme.darkMode ? "dark" : "light") + "/" + audioIcon(slider.value / slider.to * 100) + ".svg"
                                 smooth: false
                                 antialiasing: true
                             }
@@ -166,14 +166,14 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.largeSpacing * 2
+                height: MatsyaUI.Units.largeSpacing * 2
             }
 
             Label {
                 text: qsTr("Input Devices")
-                leftPadding: FishUI.Units.largeSpacing
-                bottomPadding: FishUI.Units.smallSpacing
-                color: FishUI.Theme.disabledTextColor
+                leftPadding: MatsyaUI.Units.largeSpacing
+                bottomPadding: MatsyaUI.Units.smallSpacing
+                color: MatsyaUI.Theme.disabledTextColor
                 visible: sinkInputView.count >= 1
             }
 
@@ -184,40 +184,40 @@ ItemPage {
                 Layout.preferredHeight: contentHeight
 
                 interactive: false
-                spacing: FishUI.Units.largeSpacing
+                spacing: MatsyaUI.Units.largeSpacing
                 model: paSourceFilterModel
 
                 delegate: Item {
                     width: ListView.view.width
-                    height: _layout.implicitHeight + FishUI.Units.largeSpacing * 2
+                    height: _layout.implicitHeight + MatsyaUI.Units.largeSpacing * 2
 
                     readonly property var currentPort: Ports[ActivePortIndex]
 
                     Rectangle {
                         anchors.fill: parent
-                        color: FishUI.Theme.secondBackgroundColor
-                        radius: FishUI.Theme.bigRadius
+                        color: MatsyaUI.Theme.secondBackgroundColor
+                        radius: MatsyaUI.Theme.bigRadius
                     }
 
                     ColumnLayout {
                         id: _layout
                         anchors.fill: parent
-                        anchors.margins: FishUI.Units.largeSpacing
-                        spacing: FishUI.Units.largeSpacing
+                        anchors.margins: MatsyaUI.Units.largeSpacing
+                        spacing: MatsyaUI.Units.largeSpacing
 
                         Label {
                             text: !currentPort ? Description : currentPort.description
                         }
 
                         RowLayout {
-                            spacing: FishUI.Units.largeSpacing
+                            spacing: MatsyaUI.Units.largeSpacing
 
                             Image {
                                 Layout.leftMargin: 2
                                 height: 16
                                 width: height
                                 sourceSize: Qt.size(width, height)
-                                source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark" : "light") + "/" + microphoneIcon(_slider.value / _slider.to * 100) + ".svg"
+                                source: "qrc:/images/" + (MatsyaUI.Theme.darkMode ? "dark" : "light") + "/" + microphoneIcon(_slider.value / _slider.to * 100) + ".svg"
                                 smooth: false
                                 antialiasing: true
                             }
@@ -248,7 +248,7 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.largeSpacing * 2
+                height: MatsyaUI.Units.largeSpacing * 2
             }
         }
     }

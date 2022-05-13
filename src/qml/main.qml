@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -22,9 +22,9 @@ import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtQuick.Window 2.3
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
-FishUI.Window {
+MatsyaUI.Window {
     id: rootWindow
     title: qsTr("\t    Settings")
     visible: true
@@ -36,14 +36,14 @@ FishUI.Window {
 
     property alias stackView: _stackView
 
-    background.opacity: FishUI.Theme.darkMode ? 0.7 : 0.5
+    background.opacity: MatsyaUI.Theme.darkMode ? 0.7 : 0.5
     header.height: 40
     contentTopMargin: 0
 
     LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.RightToLeft
     LayoutMirroring.childrenInherit: true
 
-    FishUI.WindowBlur {
+    MatsyaUI.WindowBlur {
         view: rootWindow
         geometry: Qt.rect(rootWindow.x, rootWindow.y, rootWindow.width, rootWindow.height)
         windowRadius: rootWindow.windowRadius

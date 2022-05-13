@@ -1,5 +1,5 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
+Matsya/*
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -22,8 +22,8 @@ import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
 
-import Cutefish.Settings 1.0
-import FishUI 1.0 as FishUI
+import Matsya.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
 import "../"
 
 ItemPage {
@@ -40,30 +40,30 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            // anchors.bottomMargin: FishUI.Units.largeSpacing
-            spacing: FishUI.Units.largeSpacing * 2
+            // anchors.bottomMargin: MatsyaUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             RoundedItem {
                 Label {
                     text: qsTr("Theme")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 // Light Mode and Dark Mode
                 RowLayout {
-                    spacing: FishUI.Units.largeSpacing * 2
+                    spacing: MatsyaUI.Units.largeSpacing * 2
 
                     IconCheckBox {
                         source: "qrc:/images/light_mode.svg"
                         text: qsTr("Light")
-                        checked: !FishUI.Theme.darkMode
+                        checked: !MatsyaUI.Theme.darkMode
                         onClicked: appearance.switchDarkMode(false)
                     }
 
                     IconCheckBox {
                         source: "qrc:/images/dark_mode.svg"
                         text: qsTr("Dark")
-                        checked: FishUI.Theme.darkMode
+                        checked: MatsyaUI.Theme.darkMode
                         onClicked: appearance.switchDarkMode(true)
                     }
                 }
@@ -71,12 +71,12 @@ ItemPage {
                 HorizontalDivider {}
 
                 RowLayout {
-                    spacing: FishUI.Units.largeSpacing
+                    spacing: MatsyaUI.Units.largeSpacing
 
                     Label {
                         id: dimsTipsLabel
                         text: qsTr("Dim the wallpaper in dark theme")
-                        bottomPadding: FishUI.Units.smallSpacing
+                        bottomPadding: MatsyaUI.Units.smallSpacing
                         Layout.alignment: Qt.AlignVCenter | Qt.AlignLeft
                     }
 
@@ -115,7 +115,7 @@ ItemPage {
 
             RoundedItem {
                 RowLayout {
-                    spacing: FishUI.Units.largeSpacing * 2
+                    spacing: MatsyaUI.Units.largeSpacing * 2
 
                     Label {
                         text: qsTr("Minimize animation")
@@ -140,7 +140,7 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Accent color")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 GridView {
@@ -152,22 +152,22 @@ ItemPage {
                     interactive: false
                     model: ListModel {}
 
-                    property var itemSize: 30 + FishUI.Units.largeSpacing * 2
+                    property var itemSize: 30 + MatsyaUI.Units.largeSpacing * 2
 
                     Component.onCompleted: {
-                        model.append({"accentColor": String(FishUI.Theme.blueColor)})
-                        model.append({"accentColor": String(FishUI.Theme.redColor)})
-                        model.append({"accentColor": String(FishUI.Theme.greenColor)})
-                        model.append({"accentColor": String(FishUI.Theme.purpleColor)})
-                        model.append({"accentColor": String(FishUI.Theme.pinkColor)})
-                        model.append({"accentColor": String(FishUI.Theme.orangeColor)})
-                        model.append({"accentColor": String(FishUI.Theme.greyColor)})
+                        model.append({"accentColor": String(MatsyaUI.Theme.blueColor)})
+                        model.append({"accentColor": String(MatsyaUI.Theme.redColor)})
+                        model.append({"accentColor": String(MatsyaUI.Theme.greenColor)})
+                        model.append({"accentColor": String(MatsyaUI.Theme.purpleColor)})
+                        model.append({"accentColor": String(MatsyaUI.Theme.pinkColor)})
+                        model.append({"accentColor": String(MatsyaUI.Theme.orangeColor)})
+                        model.append({"accentColor": String(MatsyaUI.Theme.greyColor)})
                     }
 
                     delegate: Item {
                         id: _accentColorItem
 
-                        property bool checked: Qt.colorEqual(FishUI.Theme.highlightColor, accentColor)
+                        property bool checked: Qt.colorEqual(MatsyaUI.Theme.highlightColor, accentColor)
                         property color currentColor: accentColor
 
                         width: GridView.view.itemSize
@@ -182,7 +182,7 @@ ItemPage {
 
                         Rectangle {
                             anchors.fill: parent
-                            anchors.margins: FishUI.Units.smallSpacing
+                            anchors.margins: MatsyaUI.Units.smallSpacing
                             color: "transparent"
                             radius: width / 2
 
@@ -196,7 +196,7 @@ ItemPage {
 
                             Rectangle {
                                 anchors.fill: parent
-                                anchors.margins: FishUI.Units.smallSpacing
+                                anchors.margins: MatsyaUI.Units.smallSpacing
                                 color: currentColor
                                 radius: width / 2
 

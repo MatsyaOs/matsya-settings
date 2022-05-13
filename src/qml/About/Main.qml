@@ -1,5 +1,5 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
+Matsya/*
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,8 +20,8 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
-import Cutefish.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Settings 1.0
 import QtGraphicalEffects 1.0
 import "../"
 
@@ -41,7 +41,7 @@ ItemPage {
             anchors.fill: parent
 
             Item {
-                height: FishUI.Units.largeSpacing
+                height: MatsyaUI.Units.largeSpacing
             }
 
             Image {
@@ -49,22 +49,22 @@ ItemPage {
                 width: 753*0.4
                 height:391*0.4
                 sourceSize: Qt.size(width, height)
-                source: FishUI.Theme.darkMode ? "qrc:/images/dark/logo.svg"
+                source: MatsyaUI.Theme.darkMode ? "qrc:/images/dark/logo.svg"
                                                       : "qrc:/images/light/logo.svg"
             }
 
             Item {
-                height: FishUI.Units.smallSpacing
+                height: MatsyaUI.Units.smallSpacing
             }
 
             Label {
                             Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
                             text: "<b>Matsya OS</b>"
-                            visible:!about.isCutefishOS
+                            visible:!about.isMatsyaOS
                             font.pointSize: 24
-                            color:  FishUI.Theme.darkMode ? "#FFFFFF":"#000000"
-                            leftPadding: FishUI.Units.largeSpacing * 2
-                            rightPadding: FishUI.Units.largeSpacing * 2
+                            color:  MatsyaUI.Theme.darkMode ? "#FFFFFF":"#000000"
+                            leftPadding: MatsyaUI.Units.largeSpacing * 2
+                            rightPadding: MatsyaUI.Units.largeSpacing * 2
 
 
             }
@@ -72,22 +72,22 @@ ItemPage {
                 Layout.preferredWidth: 681*0.37
                 Layout.preferredHeight: 71*0.37
                 sourceSize: Qt.size(681, 71)
-                source:FishUI.Theme.darkMode ? "qrc:/images/dark/logo.png"
+                source:MatsyaUI.Theme.darkMode ? "qrc:/images/dark/logo.png"
                                              : "qrc:/images/light/logo.png"
                 Layout.alignment: Qt.AlignHCenter
-                visible: about.isCutefishOS
+                visible: about.isMatsyaOS
                 asynchronous: true
             }
 
             Label {
                 text: qsTr("Built on %1").arg(about.prettyProductName)
-                visible: !about.isCutefishOS
+                visible: !about.isMatsyaOS
                 Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
-                color: FishUI.Theme.disabledTextColor
+                color: MatsyaUI.Theme.disabledTextColor
             }
 
             Item {
-                height: FishUI.Units.largeSpacing * 2
+                height: MatsyaUI.Units.largeSpacing * 2
             }
 
             RoundedItem {
@@ -123,12 +123,12 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.smallSpacing
+                height: MatsyaUI.Units.smallSpacing
             }
 
             StandardButton {
                 Layout.fillWidth: true
-                visible: about.isCutefishOS
+                visible: about.isMatsyaOS
                 text: qsTr("Software Update")
                 onClicked: {
                     about.openUpdator()

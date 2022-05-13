@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,9 +20,9 @@
 import QtQuick 2.4
 import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
-import Cutefish.Settings 1.0
-import Cutefish.Screen 1.0 as CS
-import FishUI 1.0 as FishUI
+import Matsya.Settings 1.0
+import Matsya.Screen 1.0 as CS
+import MatsyaUI 1.0 as MatsyaUI
 import "../"
 
 ItemPage {
@@ -57,7 +57,7 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.largeSpacing * 2
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             RoundedItem {
                 Layout.fillWidth: true
@@ -65,16 +65,16 @@ ItemPage {
 
                 Label {
                     text: qsTr("Brightness")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                     visible: brightness.enabled
                 }
 
                 Item {
-                    height: FishUI.Units.smallSpacing / 2
+                    height: MatsyaUI.Units.smallSpacing / 2
                 }
 
                 RowLayout {
-                    spacing: FishUI.Units.largeSpacing
+                    spacing: MatsyaUI.Units.largeSpacing
 
                     Image {
                         width: 16
@@ -82,7 +82,7 @@ ItemPage {
                         sourceSize.width: width
                         sourceSize.height: height
                         Layout.alignment: Qt.AlignVCenter
-                        source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark" : "light") + "/display-brightness-low-symbolic.svg"
+                        source: "qrc:/images/" + (MatsyaUI.Theme.darkMode ? "dark" : "light") + "/display-brightness-low-symbolic.svg"
                     }
 
                     Slider {
@@ -108,12 +108,12 @@ ItemPage {
                         sourceSize.width: width
                         sourceSize.height: height
                         Layout.alignment: Qt.AlignVCenter
-                        source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark" : "light") + "/display-brightness-symbolic.svg"
+                        source: "qrc:/images/" + (MatsyaUI.Theme.darkMode ? "dark" : "light") + "/display-brightness-symbolic.svg"
                     }
                 }
 
                 Item {
-                    height: FishUI.Units.smallSpacing / 2
+                    height: MatsyaUI.Units.smallSpacing / 2
                 }
             }
 
@@ -122,7 +122,7 @@ ItemPage {
 
                 Label {
                     text: qsTr("Screen")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                     visible: _screenView.count > 0
                 }
 
@@ -134,7 +134,7 @@ ItemPage {
                     interactive: false
                     clip: true
 
-                    Layout.preferredHeight: currentItem ? currentItem.layout.implicitHeight + FishUI.Units.largeSpacing : 0
+                    Layout.preferredHeight: currentItem ? currentItem.layout.implicitHeight + MatsyaUI.Units.largeSpacing : 0
 
                     Behavior on Layout.preferredHeight {
                         NumberAnimation {
@@ -157,8 +157,8 @@ ItemPage {
 
                             GridLayout {
                                 columns: 2
-                                columnSpacing: FishUI.Units.largeSpacing * 1.5
-                                rowSpacing: FishUI.Units.largeSpacing * 1.5
+                                columnSpacing: MatsyaUI.Units.largeSpacing * 1.5
+                                rowSpacing: MatsyaUI.Units.largeSpacing * 1.5
 
                                 Label {
                                     text: qsTr("Screen Name")
@@ -167,7 +167,7 @@ ItemPage {
 
                                 Label {
                                     text: element.display
-                                    color: FishUI.Theme.disabledTextColor
+                                    color: MatsyaUI.Theme.disabledTextColor
                                     visible: _screenView.count > 1
                                 }
 
@@ -178,8 +178,8 @@ ItemPage {
                                 ComboBox {
                                     Layout.fillWidth: true
                                     model: element.resolutions
-                                    leftPadding: FishUI.Units.largeSpacing
-                                    rightPadding: FishUI.Units.largeSpacing
+                                    leftPadding: MatsyaUI.Units.largeSpacing
+                                    rightPadding: MatsyaUI.Units.largeSpacing
                                     topInset: 0
                                     bottomInset: 0
                                     currentIndex: element.resolutionIndex !== undefined ?
@@ -198,8 +198,8 @@ ItemPage {
                                     id: refreshRate
                                     Layout.fillWidth: true
                                     model: element.refreshRates
-                                    leftPadding: FishUI.Units.largeSpacing
-                                    rightPadding: FishUI.Units.largeSpacing
+                                    leftPadding: MatsyaUI.Units.largeSpacing
+                                    rightPadding: MatsyaUI.Units.largeSpacing
                                     topInset: 0
                                     bottomInset: 0
                                     currentIndex: element.refreshRateIndex ?
@@ -287,7 +287,7 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Scale")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 TabBar {

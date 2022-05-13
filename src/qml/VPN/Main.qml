@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,8 +20,8 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
-import Cutefish.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Settings 1.0
 import "../"
 
 ItemPage {
@@ -47,12 +47,12 @@ ItemPage {
 
             RoundedItem {
                 id: mainItem
-                spacing: FishUI.Units.largeSpacing
+                spacing: MatsyaUI.Units.largeSpacing
 
                 RowLayout {
                     Label {
                         text: qsTr("VPN")
-                        color: FishUI.Theme.disabledTextColor
+                        color: MatsyaUI.Theme.disabledTextColor
                     }
 
                     Item {
@@ -69,7 +69,7 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.smallSpacing
+                height: MatsyaUI.Units.smallSpacing
             }
         }
     }

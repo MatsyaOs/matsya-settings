@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,8 +20,8 @@
 import QtQuick 2.4
 import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
-import FishUI 1.0 as FishUI
-import Cutefish.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Settings 1.0
 import "../"
 
 ItemPage {
@@ -79,7 +79,7 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.largeSpacing * 2
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             // Battery Info
             BatteryItem {
@@ -90,7 +90,7 @@ ItemPage {
 
                 ColumnLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: batteryBackground.radius + FishUI.Units.smallSpacing
+                    anchors.leftMargin: batteryBackground.radius + MatsyaUI.Units.smallSpacing
 
                     Item {
                         Layout.fillHeight: true
@@ -141,7 +141,7 @@ ItemPage {
 
                 Label {
                     text: qsTr("History")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 HistoryGraph {
@@ -190,23 +190,23 @@ ItemPage {
 
                 Label {
                     text: qsTr("Health")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                 }
 
                 RowLayout {
-                    Layout.topMargin: FishUI.Units.largeSpacing
-                    spacing: FishUI.Units.largeSpacing * 4
+                    Layout.topMargin: MatsyaUI.Units.largeSpacing
+                    spacing: MatsyaUI.Units.largeSpacing * 4
 
                     // Poor
                     Item {
-                        height: _poorLabel.implicitHeight + 4 + FishUI.Units.smallSpacing
-                        width: _poorLabel.implicitWidth + FishUI.Units.largeSpacing
+                        height: _poorLabel.implicitHeight + 4 + MatsyaUI.Units.smallSpacing
+                        width: _poorLabel.implicitWidth + MatsyaUI.Units.largeSpacing
 
                         Rectangle {
                             id: _poorRect
                             anchors.fill: parent
                             color: "#FF8738"
-                            radius: FishUI.Theme.mediumRadius
+                            radius: MatsyaUI.Theme.mediumRadius
                             opacity: 0.1
                             visible: battery.capacity >= 0 && battery.capacity <= 79
                         }
@@ -224,14 +224,14 @@ ItemPage {
                     }
 
                     Item {
-                        height: _normalLabel.implicitHeight + 4 + FishUI.Units.smallSpacing
-                        width: _normalLabel.implicitWidth + FishUI.Units.largeSpacing
+                        height: _normalLabel.implicitHeight + 4 + MatsyaUI.Units.smallSpacing
+                        width: _normalLabel.implicitWidth + MatsyaUI.Units.largeSpacing
 
                         Rectangle {
                             id: _normalRect
                             anchors.fill: parent
                             color: "#3385FF"
-                            radius: FishUI.Theme.mediumRadius
+                            radius: MatsyaUI.Theme.mediumRadius
                             opacity: 0.1
                             visible: battery.capacity >= 80 && battery.capacity <= 89
                         }
@@ -249,14 +249,14 @@ ItemPage {
                     }
 
                     Item {
-                        height: _excellentLabel.implicitHeight + 4 + FishUI.Units.smallSpacing
-                        width: _excellentLabel.implicitWidth + FishUI.Units.largeSpacing
+                        height: _excellentLabel.implicitHeight + 4 + MatsyaUI.Units.smallSpacing
+                        width: _excellentLabel.implicitWidth + MatsyaUI.Units.largeSpacing
 
                         Rectangle {
                             id: _excellentRect
                             anchors.fill: parent
                             color: "#00CD23"
-                            radius: FishUI.Theme.mediumRadius
+                            radius: MatsyaUI.Theme.mediumRadius
                             opacity: 0.1
                             visible: battery.capacity >= 90 && battery.capacity <= 100
                         }
@@ -304,7 +304,7 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.largeSpacing
+                height: MatsyaUI.Units.largeSpacing
             }
         }
     }

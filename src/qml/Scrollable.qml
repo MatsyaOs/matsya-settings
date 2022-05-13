@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -19,25 +19,25 @@
 
 import QtQuick 2.4
 import QtQuick.Controls 2.4
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Flickable {
     id: root
     flickableDirection: Flickable.VerticalFlick
     clip: true
 
-    topMargin: FishUI.Units.largeSpacing
-    leftMargin: FishUI.Units.largeSpacing * 2
-    rightMargin: FishUI.Units.largeSpacing * 2
+    topMargin: MatsyaUI.Units.largeSpacing
+    leftMargin: MatsyaUI.Units.largeSpacing * 2
+    rightMargin: MatsyaUI.Units.largeSpacing * 2
 
     contentWidth: width - (leftMargin + rightMargin)
 
-    FishUI.WheelHandler {
+    MatsyaUI.WheelHandler {
         id: wheelHandler
         target: root
     }
 
     ScrollBar.vertical: ScrollBar {
-        bottomPadding: FishUI.Theme.smallRadius
+        bottomPadding: MatsyaUI.Theme.smallRadius
     }
 }

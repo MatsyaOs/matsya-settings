@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -22,9 +22,9 @@ import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtGraphicalEffects 1.0
 
-import FishUI 1.0 as FishUI
-import Cutefish.Settings 1.0
-import Cutefish.Accounts 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Settings 1.0
+import Matsya.Accounts 1.0
 import "../"
 
 ItemPage {
@@ -58,13 +58,13 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: FishUI.Units.largeSpacing * 2
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             ListView {
                 id: _userView
                 model: userModel
                 Layout.fillWidth: true
-                spacing: FishUI.Units.largeSpacing * 2
+                spacing: MatsyaUI.Units.largeSpacing * 2
                 interactive: false
 
                 Layout.preferredHeight: {
@@ -95,7 +95,7 @@ ItemPage {
 
                 ColumnLayout {
                     id: _mainLayout
-                    spacing: FishUI.Units.largeSpacing * 1.5
+                    spacing: MatsyaUI.Units.largeSpacing * 1.5
 
                     Label {
                         text: qsTr("Add new user")
@@ -103,8 +103,8 @@ ItemPage {
 
                     GridLayout {
                         columns: 2
-                        columnSpacing: FishUI.Units.largeSpacing * 2
-                        rowSpacing: FishUI.Units.smallSpacing * 2
+                        columnSpacing: MatsyaUI.Units.largeSpacing * 2
+                        rowSpacing: MatsyaUI.Units.smallSpacing * 2
 
                         Label {
                             text: qsTr("User name")
@@ -161,7 +161,7 @@ ItemPage {
 
                     RowLayout {
                         id: footerLayout
-                        spacing: FishUI.Units.largeSpacing
+                        spacing: MatsyaUI.Units.largeSpacing
 
                         Button {
                             id: cancelButton
@@ -205,7 +205,7 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.largeSpacing
+                height: MatsyaUI.Units.largeSpacing
             }
         }
     }

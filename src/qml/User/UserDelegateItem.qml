@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -23,16 +23,16 @@ import QtQuick.Layouts 1.12
 import QtQuick.Dialogs 1.2
 import QtGraphicalEffects 1.0
 
-import Cutefish.Settings 1.0
-import Cutefish.Accounts 1.0
-import FishUI 1.0 as FishUI
+import Matsya.Settings 1.0
+import Matsya.Accounts 1.0
+import MatsyaUI 1.0 as MatsyaUI
 
 import "../"
 
 RoundedItem {
     id: control
 
-    height: mainLayout.implicitHeight + FishUI.Units.largeSpacing * 2
+    height: mainLayout.implicitHeight + MatsyaUI.Units.largeSpacing * 2
 
     UserAccount {
         id: currentUser
@@ -62,7 +62,7 @@ RoundedItem {
                 id: _topItem
 
                 Layout.fillWidth: true
-                height: _topLayout.implicitHeight + FishUI.Units.largeSpacing
+                height: _topLayout.implicitHeight + MatsyaUI.Units.largeSpacing
 
                 MouseArea {
                     anchors.fill: parent
@@ -72,8 +72,8 @@ RoundedItem {
                 RowLayout {
                     id: _topLayout
                     anchors.fill: parent
-                    anchors.topMargin: FishUI.Units.smallSpacing
-                    anchors.bottomMargin: FishUI.Units.smallSpacing
+                    anchors.topMargin: MatsyaUI.Units.smallSpacing
+                    anchors.bottomMargin: MatsyaUI.Units.smallSpacing
                     spacing: 0
 
                     Image {
@@ -112,17 +112,17 @@ RoundedItem {
                         Layout.alignment: Qt.AlignVCenter
                         font.pixelSize: 15
                         text: "<b>%1</b>".arg(userName)
-                        leftPadding: FishUI.Units.largeSpacing
+                        leftPadding: MatsyaUI.Units.largeSpacing
                     }
 
                     Item {
-                        width: FishUI.Units.largeSpacing
+                        width: MatsyaUI.Units.largeSpacing
                     }
 
                     Label {
                         Layout.alignment: Qt.AlignVCenter
                         text: realName
-                        color: FishUI.Theme.disabledTextColor
+                        color: MatsyaUI.Theme.disabledTextColor
                         visible: realName !== userName
                     }
 
@@ -137,12 +137,12 @@ RoundedItem {
                     }
 
                     Item {
-                        width: FishUI.Units.smallSpacing
+                        width: MatsyaUI.Units.smallSpacing
                     }
 
-                    FishUI.RoundImageButton {
-                        iconMargins: FishUI.Units.smallSpacing
-                        source: FishUI.Theme.darkMode ? additionalSettings.shown ? "qrc:/images/dark/up.svg" : "qrc:/images/dark/down.svg"
+                    MatsyaUI.RoundImageButton {
+                        iconMargins: MatsyaUI.Units.smallSpacing
+                        source: MatsyaUI.Theme.darkMode ? additionalSettings.shown ? "qrc:/images/dark/up.svg" : "qrc:/images/dark/down.svg"
                                                       : additionalSettings.shown ? "qrc:/images/light/up.svg" : "qrc:/images/light/down.svg"
                         onClicked: additionalSettings.toggle()
                         Layout.alignment: Qt.AlignVCenter
@@ -153,16 +153,16 @@ RoundedItem {
 
         Hideable {
             id: additionalSettings
-            spacing: FishUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing
 
             Item {
-                height: FishUI.Units.largeSpacing
+                height: MatsyaUI.Units.largeSpacing
             }
 
             GridLayout {
                 Layout.fillWidth: true
-                Layout.bottomMargin: FishUI.Units.smallSpacing
-                rowSpacing: FishUI.Units.largeSpacing * 2
+                Layout.bottomMargin: MatsyaUI.Units.smallSpacing
+                rowSpacing: MatsyaUI.Units.largeSpacing * 2
                 columns: 2
 
                 Label {
@@ -208,8 +208,8 @@ RoundedItem {
                 id: changePasswdLayout
                 visible: false
                 columns: 2
-                columnSpacing: FishUI.Units.largeSpacing * 2
-                rowSpacing: FishUI.Units.smallSpacing * 2
+                columnSpacing: MatsyaUI.Units.largeSpacing * 2
+                rowSpacing: MatsyaUI.Units.smallSpacing * 2
 
                 Label {
                     text: qsTr("Password")
@@ -240,7 +240,7 @@ RoundedItem {
 
             RowLayout {
                 id: changePasswdFooterLayout
-                spacing: FishUI.Units.largeSpacing
+                spacing: MatsyaUI.Units.largeSpacing
                 visible: false
 
                 Button {
@@ -271,7 +271,7 @@ RoundedItem {
             StandardButton {
                 text: qsTr("Change password")
                 onClicked: showChangePasswordItem()
-                backgroundColor: FishUI.Theme.darkMode ? "#363636" : FishUI.Theme.backgroundColor
+                backgroundColor: MatsyaUI.Theme.darkMode ? "#363636" : MatsyaUI.Theme.backgroundColor
                 Layout.fillWidth: true
                 visible: !changePasswdLabel.visible
             }
@@ -280,7 +280,7 @@ RoundedItem {
                 text: qsTr("Delete this user")
                 enabled: model.userId !== loggedUser.userId
                 onClicked: accountsManager.deleteUser(userId, true)
-                backgroundColor: FishUI.Theme.darkMode ? "#363636" : FishUI.Theme.backgroundColor
+                backgroundColor: MatsyaUI.Theme.darkMode ? "#363636" : MatsyaUI.Theme.backgroundColor
                 Layout.fillWidth: true
             }
         }

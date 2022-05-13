@@ -1,6 +1,6 @@
 # Settings
 
-The System Settings application for Cutefish Desktop.
+The System Settings application for Matsya Desktop.
 
 ![screenshot](screenshots/Screenshot_20211025_150819.png)
 

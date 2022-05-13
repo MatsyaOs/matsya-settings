@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     Reion Wong <reionwong@gmail.com>
  *
@@ -22,8 +22,8 @@ import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
 
-import FishUI 1.0 as FishUI
-import Cutefish.NetworkManagement 1.0 as NM
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.NetworkManagement 1.0 as NM
 
 import "../"
 
@@ -56,8 +56,8 @@ ItemPage {
         ColumnLayout {
             id: mainLayout
             anchors.fill: parent
-            anchors.bottomMargin: FishUI.Units.largeSpacing
-            spacing: FishUI.Units.largeSpacing * 2
+            anchors.bottomMargin: MatsyaUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing * 2
 
             // Hotspot
             RoundedItem {
@@ -67,7 +67,7 @@ ItemPage {
                 RowLayout {
                     Label {
                         text: qsTr("Hotspot")
-                        color: FishUI.Theme.disabledTextColor
+                        color: MatsyaUI.Theme.disabledTextColor
                     }
 
                     Item {
@@ -90,13 +90,13 @@ ItemPage {
                 }
 
                 Item {
-                    height: FishUI.Units.largeSpacing
+                    height: MatsyaUI.Units.largeSpacing
                 }
 
                 GridLayout {
                     columns: 2
-                    columnSpacing: FishUI.Units.largeSpacing * 2
-                    rowSpacing: FishUI.Units.largeSpacing
+                    columnSpacing: MatsyaUI.Units.largeSpacing * 2
+                    rowSpacing: MatsyaUI.Units.largeSpacing
 
                     Label {
                         text: qsTr("SSID")
@@ -122,7 +122,7 @@ ItemPage {
                 }
 
                 Item {
-                    height: FishUI.Units.largeSpacing
+                    height: MatsyaUI.Units.largeSpacing
                 }
 
                 Button {
@@ -141,7 +141,7 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.largeSpacing
+                height: MatsyaUI.Units.largeSpacing
             }
         }
     }

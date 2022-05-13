@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -20,9 +20,9 @@
 import QtQuick 2.4
 import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
-import Cutefish.Settings 1.0
-import FishUI 1.0 as FishUI
-import Cutefish.Bluez 1.0 as Bluez
+import Matsya.Settings 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Bluez 1.0 as Bluez
 import "../"
 
 ItemPage {
@@ -82,16 +82,16 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            anchors.bottomMargin: FishUI.Units.largeSpacing
+            anchors.bottomMargin: MatsyaUI.Units.largeSpacing
 
             RoundedItem {
                 id: mainItem
-                spacing: FishUI.Units.largeSpacing
+                spacing: MatsyaUI.Units.largeSpacing
 
                 RowLayout {
                     Label {
                         text: qsTr("Bluetooth")
-                        color: FishUI.Theme.disabledTextColor
+                        color: MatsyaUI.Theme.disabledTextColor
                     }
 
                     Item {
@@ -128,16 +128,16 @@ ItemPage {
                     section.property: "Section"
                     section.criteria: ViewSection.FullString
                     section.delegate: Label {
-                        color: FishUI.Theme.disabledTextColor
-                        topPadding: FishUI.Units.largeSpacing
-                        bottomPadding: FishUI.Units.largeSpacing
+                        color: MatsyaUI.Theme.disabledTextColor
+                        topPadding: MatsyaUI.Units.largeSpacing
+                        bottomPadding: MatsyaUI.Units.largeSpacing
                         text: section == "My devices" ? qsTr("My devices")
                                                      : qsTr("Other devices")
                     }
 
                     delegate: Item {
                         width: ListView.view.width
-                        height: _itemLayout.implicitHeight + FishUI.Units.largeSpacing
+                        height: _itemLayout.implicitHeight + MatsyaUI.Units.largeSpacing
 
                         property bool paired: model.Connected && model.Paired
 
@@ -146,18 +146,18 @@ ItemPage {
                             anchors.fill: parent
                             anchors.leftMargin: 0
                             anchors.rightMargin: 0
-                            anchors.topMargin: FishUI.Units.smallSpacing
-                            anchors.bottomMargin: FishUI.Units.smallSpacing
+                            anchors.topMargin: MatsyaUI.Units.smallSpacing
+                            anchors.bottomMargin: MatsyaUI.Units.smallSpacing
                             spacing: 0
 
                             Item {
                                 Layout.fillWidth: true
-                                height: _contentLayout.implicitHeight + FishUI.Units.largeSpacing
+                                height: _contentLayout.implicitHeight + MatsyaUI.Units.largeSpacing
 
                                 Rectangle {
                                     anchors.fill: parent
-                                    radius: FishUI.Theme.smallRadius
-                                    color: FishUI.Theme.textColor
+                                    radius: MatsyaUI.Theme.smallRadius
+                                    color: MatsyaUI.Theme.textColor
                                     opacity: mouseArea.pressed ? 0.15 :  mouseArea.containsMouse ? 0.1 : 0.0
                                 }
 
@@ -184,13 +184,13 @@ ItemPage {
                                 RowLayout {
                                     id: _contentLayout
                                     anchors.fill: parent
-                                    anchors.rightMargin: FishUI.Units.smallSpacing
+                                    anchors.rightMargin: MatsyaUI.Units.smallSpacing
 
                                     Image {
                                         width: 16
                                         height: 16
                                         sourceSize: Qt.size(16, 16)
-                                        source: FishUI.Theme.darkMode ? "qrc:/images/sidebar/dark/bluetooth.svg"
+                                        source: MatsyaUI.Theme.darkMode ? "qrc:/images/sidebar/dark/bluetooth.svg"
                                                                       : "qrc:/images/sidebar/light/bluetooth.svg"
                                         Layout.alignment: Qt.AlignVCenter
                                     }
@@ -214,12 +214,12 @@ ItemPage {
 
                                 ColumnLayout {
                                     Item {
-                                        height: FishUI.Units.largeSpacing
+                                        height: MatsyaUI.Units.largeSpacing
                                     }
 
                                     RowLayout {
-                                        spacing: FishUI.Units.largeSpacing
-                                        Layout.leftMargin: FishUI.Units.smallSpacing
+                                        spacing: MatsyaUI.Units.largeSpacing
+                                        Layout.leftMargin: MatsyaUI.Units.smallSpacing
 
                                         Button {
                                             text: qsTr("Connect")
@@ -261,7 +261,7 @@ ItemPage {
             }
 
             Item {
-                height: FishUI.Units.largeSpacing * 2
+                height: MatsyaUI.Units.largeSpacing * 2
             }
         }
     }
