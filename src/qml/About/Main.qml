@@ -46,8 +46,8 @@ ItemPage {
 
             Image {
                 Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
-                width: 753*0.4
-                height:391*0.4
+                width: 500*0.4
+                height:500*0.4
                 sourceSize: Qt.size(width, height)
                 source: MatsyaUI.Theme.darkMode ? "qrc:/images/dark/logo.svg"
                                                       : "qrc:/images/light/logo.svg"

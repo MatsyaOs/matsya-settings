@@ -190,8 +190,8 @@ ItemPage {
                                         width: 16
                                         height: 16
                                         sourceSize: Qt.size(16, 16)
-                                        source: MatsyaUI.Theme.darkMode ? "qrc:/images/sidebar/dark/bluetooth.svg"
-                                                                      : "qrc:/images/sidebar/light/bluetooth.svg"
+                                        source: MatsyaUI.Theme.darkMode ? "qrc:/images/sidebar/dark/"+model.Icon+".svg"
+                                                                      : "qrc:/images/sidebar/light/"+model.Icon+".svg"
                                         Layout.alignment: Qt.AlignVCenter
                                     }
 
@@ -200,6 +200,7 @@ ItemPage {
                                         Layout.fillWidth: true
                                         Layout.alignment: Qt.AlignVCenter
                                     }
+
 
                                     Label {
                                         visible: model.Paired

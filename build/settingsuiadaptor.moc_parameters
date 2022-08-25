@@ -1,0 +1,5 @@
+-I/home/tokyo/matsyaos/QT6/done/matsya-settings
+-I/home/tokyo/matsyaos/QT6/done/matsya-settings/build
+-o
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/settingsuiadaptor.moc
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/settingsuiadaptor.h

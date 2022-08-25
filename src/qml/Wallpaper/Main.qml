@@ -218,11 +218,11 @@ ItemPage {
                 }
             }
 
-//            DesktopPreview {
-//                Layout.alignment: Qt.AlignHCenter
-//                width: 500
-//                height: 300
-//            }
+            DesktopPreview {
+                Layout.alignment: Qt.AlignHCenter
+                width: 500
+                height: 300
+            }
 
             Item {
                 height: MatsyaUI.Units.largeSpacing

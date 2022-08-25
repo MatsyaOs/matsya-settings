@@ -26,7 +26,7 @@ import QtGraphicalEffects 1.0
 import Matsya.Settings 1.0
 import Matsya.Accounts 1.0
 import MatsyaUI 1.0 as MatsyaUI
-
+//import "./qml"
 import "../"
 
 RoundedItem {

@@ -1,0 +1,12 @@
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/KF5NetworkManagerQt_QCH.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/KF5ModemManagerQt_QCH.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/KF5Config_QCH.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/matsya-settings.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/translations.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/edit_cache.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/rebuild_cache.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/list_install_components.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/install.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/install/local.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/install/strip.dir
+/home/tokyo/matsyaos/QT6/done/matsya-settings/build/CMakeFiles/matsya-settings_autogen.dir

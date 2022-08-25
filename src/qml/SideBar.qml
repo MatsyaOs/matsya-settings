@@ -87,14 +87,14 @@ Item {
             category: qsTr("Network and connection")
         }
 
-//        ListElement {
-//            title: qsTr("VPN")
-//            name: "vpn"
-//            page: "qrc:/qml/VPN/Main.qml"
-//            iconSource: "bluetooth.svg"
-//            iconColor: "#0067FF"
-//            category: qsTr("Network and connection")
-//        }
+        ListElement {
+            title: qsTr("VPN")
+            name: "vpn"
+            page: "qrc:/qml/VPN/Main.qml"
+            iconSource: "bluetooth.svg"
+            iconColor: "#0067FF"
+            category: qsTr("Network and connection")
+        }
 
         ListElement {
             title: qsTr("Proxy")

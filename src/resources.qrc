@@ -151,5 +151,27 @@
         <file>qml/DefaultApp/AppComboBox.qml</file>
         <file>images/light/logo.svg</file>
         <file>images/dark/logo.svg</file>
+        <file>images/sidebar/light/audio-headphones.svg</file>
+        <file>images/sidebar/light/audio-headset.svg</file>
+        <file>images/sidebar/light/audio-speakers.svg</file>
+        <file>images/sidebar/light/camera.svg</file>
+        <file>images/sidebar/light/computer.svg</file>
+        <file>images/sidebar/light/input-gaming.svg</file>
+        <file>images/sidebar/light/input-keyboard.svg</file>
+        <file>images/sidebar/light/input-mouse.svg</file>
+        <file>images/sidebar/light/input-tablet.svg</file>
+        <file>images/sidebar/light/laptop.svg</file>
+        <file>images/sidebar/light/phone.svg</file>
+        <file>images/sidebar/dark/audio-headphones.svg</file>
+        <file>images/sidebar/dark/audio-headset.svg</file>
+        <file>images/sidebar/dark/audio-speakers.svg</file>
+        <file>images/sidebar/dark/camera.svg</file>
+        <file>images/sidebar/dark/computer.svg</file>
+        <file>images/sidebar/dark/input-gaming.svg</file>
+        <file>images/sidebar/dark/input-keyboard.svg</file>
+        <file>images/sidebar/dark/input-mouse.svg</file>
+        <file>images/sidebar/dark/input-tablet.svg</file>
+        <file>images/sidebar/dark/laptop.svg</file>
+        <file>images/sidebar/dark/phone.svg</file>
     </qresource>
 </RCC>
